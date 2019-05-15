@@ -1,0 +1,25 @@
+.social-media{
+    padding-top: 4em;
+  }
+  
+  .twitter-account{
+    color: #1DA1F2;
+  }
+  .instagram-account{
+    color: #fbc11c;
+    width: inherit;
+    animation-name: color-change;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-duration: infinite;
+  }
+  @keyframes color-change {
+      0%   {color:#fbc11c; left:0px; top:0px;}
+      25%  {color:#c1326c; left:200px; top:0px;}
+      50%  {color:#ac3c8e; left:200px; top:200px;}
+      75%  {color:#e3225d; left:0px; top:200px;}
+      100% {color:#fbc11c; left:0px; top:0px;}
+  }
+  .facebook-account{
+    color: #4867AA;
+  }
