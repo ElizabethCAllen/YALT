@@ -1,9 +1,13 @@
 
 .footer{
-    background-color: #024873;
+    background-color: #8AB0BF;
+}
+.company-info{
+  padding-left: 4em;
 }
 .social-media{
-    padding-top: 3em;
+    /* padding-top: em; */
+   
   }
   
   .twitter-account{
@@ -40,7 +44,7 @@
     border-radius: 12px; */
 }
 .search-text{
-    background-color: #8AB0BF; 
+    background-color: white; 
     border-radius: 12px;
     border: none;
     outline: none;
@@ -49,7 +53,7 @@
 
 }
 .search-btn{
-    color: #8AB0BF;
+    color: #024873;
     height: 2em;
 }
 
