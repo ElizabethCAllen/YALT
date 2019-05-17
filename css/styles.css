@@ -1,28 +1,75 @@
+/* for smartphones with screen size smaller than 600px */
 body{
-    font-family: proxima-nova-extra-condensed, sans-serif;
+  font-family: proxima-nova-extra-condensed, sans-serif;
+}
+
+.flexbox-container{
+  display: flex;
+  /* flex-flow: column wrap; */
+  justify-content: center;
+  flex-wrap: wrap;
+  /* border: 1px solid red; */
+}
+
+h1{
+  /* border: 1px solid orange; */
+  font-size: 38pt;
+  text-align: center;
+  line-height: 36pt;
+}
+
+.body-copy{
+  font-size: 15pt;
+  /* border: 1px solid green; */
+  width: 75%;
+  padding: 20px;
+  margin: 0;
+}
+
+.img-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.img1, .img2{
+  border: 1px solid blue;
+  height: 50px;
+  width: 50px;
+  margin: 40px;
 }
 
 .font-bold{
-    font-weight: 700;
-    font-style: normal;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .font-light{
-    font-weight: 300;
-    font-style: normal;
+  font-weight: 300;
+  font-style: normal;
 }
 
 .font-italic{
-    font-weight: 400;
-    font-style: italic;
+  font-weight: 400;
+  font-style: italic;
 }
 
 .font-regular{
-    font-weight: 400;
-    font-style: normal;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .font-thin{
-    font-weight: 200;
-    font-style: normal;
+  font-weight: 200;
+  font-style: normal;
+}
+
+/* for small devices beginning at 600px */
+@media only screen and (min-width : 600px) {
+
+}
+
+/* for large devices beginning at 992px */
+@media only screen and (min-width : 992px) {
+  
 }
