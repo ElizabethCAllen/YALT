@@ -67,7 +67,7 @@
 @media (min-width: 576px) { ... }
 .company-info{
   padding-left: 5px;
-  font-size: 10pt;
+  font-size: 9pt;
 }
 .justify-content-center{
   display: none;
@@ -79,7 +79,45 @@ input{
   padding: 0%;
 }
 @media (min-width: 768px) { ... }
+.company-info{
+  padding-left: 5px;
+  font-size: 9pt;
+}
+.justify-content-center{
+  display: none;
+}
+input{
+  width: 80px;
+}
+.search-btn{
+  padding: 0%;
+}
 
 @media (min-width: 992px) { ... }
-
+.company-info{
+  padding-left: 5px;
+  font-size: 9pt;
+}
+.justify-content-center{
+  display: none;
+}
+input{
+  width: 80px;
+}
+.search-btn{
+  padding: 0%;
+}
 @media (min-width: 1200px) { ... }
+.company-info{
+  padding-left: 5px;
+  font-size: 12pt;
+}
+.justify-content-center{
+  display: none;
+}
+input{
+  width: 80px;
+}
+.search-btn{
+  padding: 0%;
+}
