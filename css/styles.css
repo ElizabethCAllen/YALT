@@ -1,15 +1,18 @@
 
 .footer{
     background-color: #8AB0BF;
+    height: auto;
 }
 .company-info{
   padding-left: 4em;
 }
 .social-media{
-    /* padding-top: em; */
-   
+     /* padding: 10px; */
+    
   }
-  
+.icon-padding{
+  padding:10px;
+}
   .twitter-account{
     color: #1DA1F2;
   }
@@ -20,6 +23,7 @@
     animation-duration: 4s;
     animation-iteration-count: infinite;
     animation-duration: infinite;
+    
   }
   @keyframes color-change {
       0%   {color:#fbc11c; left:0px; top:0px;}
@@ -42,6 +46,7 @@
     /* background: #8AB0BF; */
     height: 40px;
     border-radius: 12px; */
+  
 }
 .search-text{
     background-color: white; 
@@ -55,11 +60,24 @@
 .search-btn{
     color: #024873;
     height: 2em;
+    padding-left: 5px;
 }
 
 
 @media (min-width: 576px) { ... }
-
+.company-info{
+  padding-left: 5px;
+  font-size: 10pt;
+}
+.justify-content-center{
+  display: none;
+}
+input{
+  width: 80px;
+}
+.search-btn{
+  padding: 0%;
+}
 @media (min-width: 768px) { ... }
 
 @media (min-width: 992px) { ... }
