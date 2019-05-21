@@ -1,6 +1,7 @@
 /* for smartphones with screen size smaller than 600px */
 body{
   font-family: proxima-nova-extra-condensed, sans-serif;
+  color: #707070;
 }
 
 .flexbox-container{
@@ -16,6 +17,7 @@ h1{
   font-size: 38pt;
   text-align: center;
   line-height: 36pt;
+  color: #024873;
 }
 
 .body-copy{
@@ -27,6 +29,7 @@ h1{
 }
 
 .img-container{
+  width: 100vw;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -34,9 +37,26 @@ h1{
 
 .img1, .img2{
   border: 1px solid blue;
-  height: 50px;
-  width: 50px;
-  margin: 40px;
+  height: 80px;
+  width: 80px;
+  margin: 10px;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-evenly; */
+}
+
+.home-caption-container{
+  width: 90vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* border: 1px solid slateblue; */
+}
+
+.img-caption{
+  font-size: 9pt;
+  width: 35%;
+  /* border: 1px solid tomato; */
 }
 
 .font-bold{
