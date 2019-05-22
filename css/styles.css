@@ -28,11 +28,45 @@ h1{
   margin: 0;
 }
 
-.img-container{
-  width: 100vw;
+.icon-info-container{
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-evenly;
+  /* border: 1px solid green; */
+  width: 85vw;
+}
+
+.banking-icon{
+  order: 1;
+}
+
+.banking-caption{
+  order: 2;
+}
+
+.interview-icon{
+  order: 1;
+}
+
+.interview-caption{
+  order: 2;
+}
+
+.car-icon{
+  order: 3;
+}
+
+.car-caption{
+  order: 4;
+}
+
+.home-icon{
+  order: 3;
+}
+
+.home-caption{
+  order: 4;
 }
 
 .img1, .img2, .img3, .img4{
@@ -62,17 +96,9 @@ h1{
   color: #82478A;
 }
 
-.home-caption-container{
-  width: 90vw;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  /* border: 1px solid slateblue; */
-}
-
 .img-caption{
   font-size: 9pt;
-  width: 35%;
+  width: 38%;
   /* border: 1px solid tomato; */
 }
 
@@ -103,10 +129,92 @@ h1{
 
 /* for small devices beginning at 600px */
 @media only screen and (min-width : 600px) {
+  h1{
+    text-align: left;
+    font-size: 48pt;
+  }
 
+  .body-copy{
+    font-size: 18pt;
+    /* border: 1px solid green; */
+    width: 80%;
+    padding: 20px;
+    margin: 0;
+  }
+
+  .img1, .img2, .img3, .img4{
+    border: 1px solid blue;
+    height: 140px;
+    width: 140px;
+  }
+
+  .img-caption{
+    font-size: 12pt;
+    width: 40%;
+    margin-bottom: 30px;
+    border: 1px solid red;
+  }
+
+  .icon-info-container{
+    border: 1px solid green;
+    width: 60vw;
+  }
+
+  .banking-icon{
+    order: 1;
+  }
+  
+  .banking-caption{
+    order: 2;
+  }
+  
+  .interview-icon{
+    order: 1;
+  }
+  
+  .interview-caption{
+    order: 2;
+  }
+  
+  .car-icon{
+    order: 3;
+  }
+  
+  .car-caption{
+    order: 4;
+  }
+  
+  .home-icon{
+    order: 3;
+  }
+  
+  .home-caption{
+    order: 4;
+  }
 }
 
 /* for large devices beginning at 992px */
 @media only screen and (min-width : 992px) {
-  
+  .body-copy{
+    font-size: 12pt;
+    /* border: 1px solid green; */
+    width: 60%;
+    padding: 20px;
+    margin: 0;
+  }
+
+  .icon-info-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 1px solid green;
+    width: 60vw;
+  }
+
+  .img-caption{
+    font-size: 10pt;
+    width: 15%;
+    margin-bottom: 30px;
+  }
 }
