@@ -143,21 +143,22 @@ h1{
   }
 
   .img1, .img2, .img3, .img4{
-    border: 1px solid blue;
-    height: 140px;
-    width: 140px;
+    /* border: 1px solid blue; */
+    height: 100px;
+    width: 100px;
+    margin: 40px 40px 10px 40px;
   }
 
   .img-caption{
     font-size: 12pt;
     width: 40%;
     margin-bottom: 30px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
   }
 
   .icon-info-container{
-    border: 1px solid green;
-    width: 60vw;
+    /* border: 1px solid green; */
+    width: 70vw;
   }
 
   .banking-icon{
@@ -204,17 +205,47 @@ h1{
   }
 
   .icon-info-container{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    border: 1px solid green;
-    width: 60vw;
+    /* border: 1px solid green; */
+    width: 50vw;
+    justify-content: space-around;
+  }
+
+  .banking-icon{
+    order: 1;
+  }
+  
+  .banking-caption{
+    order: 5;
+  }
+  
+  .interview-icon{
+    order: 2;
+  }
+  
+  .interview-caption{
+    order: 6;
+  }
+  
+  .car-icon{
+    order: 3;
+  }
+  
+  .car-caption{
+    order: 7;
+  }
+  
+  .home-icon{
+    order: 4;
+  }
+  
+  .home-caption{
+    order: 8;
   }
 
   .img-caption{
     font-size: 10pt;
-    width: 15%;
+    width: 18%;
     margin-bottom: 30px;
+    /* border: 1px solid red; */
   }
 }
