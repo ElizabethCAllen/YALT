@@ -97,3 +97,12 @@
     display: none;
   }
  }
+.font-thin{
+    font-weight: 200;
+    font-style: normal;
+}
+
+.navbar {
+   background-color: #024873; 
+   color:white;
+}
