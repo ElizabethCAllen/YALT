@@ -1,3 +1,4 @@
+
 body{
     font-family: proxima-nova-extra-condensed, sans-serif;
 }
@@ -27,7 +28,23 @@ body{
     font-style: normal;
 }
 
-.navbar {
-   background-color: #024873; 
-   color:white;
+
+
+.navbar, .navbar-brand, .nav-link {
+   background-color: #024873;
+    color:white;
+    
 }
+
+.navbar a:hover{
+    color:#BF9BBF;
+   
+}
+
+.dropdown-menu a:hover{
+     background-color:#8AB0BF;
+     color:white;
+}
+
+
+
