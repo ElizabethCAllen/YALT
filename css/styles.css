@@ -1,10 +1,14 @@
 
 .footer{
-    background-color: #8AB0BF;
+    background-color: #024873;
     height: auto;
+    
 }
 .company-info{
   padding-left: 4em;
+  color: white;
+
+  
 }
 .social-media{
      /* padding: 10px; */
@@ -44,23 +48,29 @@
     /* left: 50%; */
     /* transform: translate(-50%, -50%); */
     /* background: #8AB0BF; */
-    height: 40px;
+    height: 3em;
     border-radius: 12px; */
-  
+    border: 1px solid #000000;
+    justify-content: flex-end;
+    display: flex;
+     width:5em;
+
 }
+  
+
 .search-text{
     background-color: white; 
     border-radius: 12px;
     border: none;
     outline: none;
     height: 2em;
-    text-align: center
-
+    text-align: center;
+    
 }
 .search-btn{
-    color: #024873;
-    height: 2em;
-    padding-left: 5px;
+    color: #8AB0BF;
+       /* padding-left: 3em; */
+    
 }
 
 
