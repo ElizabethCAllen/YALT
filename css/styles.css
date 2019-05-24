@@ -272,4 +272,24 @@ ol{
     margin-bottom: 30px;
     /* border: 1px solid red; */
   }
+
+  .reference-img img{
+    border: 1px solid red;
+    width: 40vw;
+    margin: 20px 10px 10px 10px;
+  }
+
+  ol{
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* padding-left: 10px; */
+  }
+  
+  .list-item{
+    width: 65%;
+    padding: 5px 5px 10px 5px;
+    /* border: 1px solid blue; */
+  }
 }
