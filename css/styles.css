@@ -274,13 +274,13 @@ ol{
   }
 
   .reference-img img{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 40vw;
     margin: 20px 10px 10px 10px;
   }
 
   ol{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
