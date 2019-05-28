@@ -1,12 +1,9 @@
-<<<<<<< HEAD
 .footer{
   background-color: #024873;
   height: auto;
-=======
 
 body{
     font-family: proxima-nova-extra-condensed, sans-serif;
->>>>>>> added text and style to navbar
 }
 .company-info{
   color: white;  
@@ -130,5 +127,15 @@ body{
      color:white;
 }
 
+.navbar-nav{
+    width: 100%;
+}
+.profile-icon{
+    color:#BF9BBF;
+}
+
+.profile-icon:hover{
+    color:white;
+}
 
 
