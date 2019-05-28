@@ -46,5 +46,15 @@ body{
      color:white;
 }
 
+.navbar-nav{
+    width: 100%;
+}
+.profile-icon{
+    color:#BF9BBF;
+}
+
+.profile-icon:hover{
+    color:white;
+}
 
 
