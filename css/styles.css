@@ -138,4 +138,15 @@ body{
     color:white;
 }
 
+.collapse:not(.show) {
+    display:none;
+}
+.navbar-toggler {
+    border-color:red;
+    background-color: white; 
+}
 
+
+.fa-bars{
+    color:pink;
+}
