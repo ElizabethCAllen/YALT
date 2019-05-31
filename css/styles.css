@@ -249,3 +249,7 @@ h1{
     /* border: 1px solid red; */
   }
 }
+.test {
+  height: 600px;
+  width: 600px;
+} 
