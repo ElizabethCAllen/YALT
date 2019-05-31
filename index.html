@@ -8,32 +8,52 @@
 
     <link href="css/styles.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/wtw0aew.css">
+    
   </head>
   <body>
     <h1>Hello, world!</h1>
     <body>
 
-      <div id="wrapper">
-        <header>
-        <h1>Tip Calculator</h1>
-        </header>
+      <h1>Tip Calculator</h1>
+      <script src= "js/scripts.js"></script>
+      <form>
+  
+        <p>*********************</p>
+  
+        <p>Amount:</p>
+  
+        <p>$ <input id="bill" type="number"></p>
+  
+        <p>Tip:</p>
+  
+        <p>% <input id="tippercent" type="number"></p>
+  
+        <button id="calctip1">Calculate Tip from Rate</button>
+  
+        <p>Tip:</p>
+  
+        <p><span id="tip">  </span></p>
+  
+        <p>*********************</p>
+  
+        <p>Tip Amount:</p>
+  
+        <p> $ <input id="tipamt" type="number"></p>
+  
+        <button id="my-button2">Calculate Tip % from Tip $</button>
+  
+        <p>Tip:</p>
+  
+        <p> % <span id="tiprate">  </span></p>
+  
+        <p>*********************</p>     
+  
+        <p>Total:</span></p>
+  
+        <p>$ <span id="total"></span></p>
+  
+      </form>
       
-      <form action="javascript:void(calc())">
-        Amount: $<input id="bill" type="text">
-        <br>
-
-      <input type="submit" value="Calculate">
-        <br>
-      
-      Tip: <span id="tip"></span>
-      
-       <br>
-      
-       Total: <span id="total"></span>
-       </form>
-      
-      </div>
-    
 
   </body>
 </html>
