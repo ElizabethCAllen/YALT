@@ -142,11 +142,13 @@ body{
     display:none;
 }
 .navbar-toggler {
-    border-color:red;
-    background-color: white; 
+    border-color:#fff;
+    background-color: #BF9BBF; 
+    height:30px;
 }
 
 
 .fa-bars{
-    color:pink;
+    color:white;
 }
+
