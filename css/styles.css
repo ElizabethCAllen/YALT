@@ -41,7 +41,7 @@ body{
    
 }
 
-.dropdown-menu .dropdown-menu.show a:hover{
+.dropdown-menu a:hover{
      background-color:#8AB0BF;
      color:white;
 }
