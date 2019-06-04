@@ -41,7 +41,7 @@ body{
    
 }
 
-.dropdown-menu a:hover{
+.dropdown-menu .dropdown-menu.show a:hover{
      background-color:#8AB0BF;
      color:white;
 }
@@ -70,4 +70,12 @@ body{
 .fa-bars{
     color:white;
 }
+
+.dropdown-menu.show{
+    width:190px;
+    
+}     
+
+
+
 
