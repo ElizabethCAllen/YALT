@@ -293,3 +293,7 @@ ol{
     /* border: 1px solid blue; */
   }
 }
+
+.list-title{
+  flex-direction:center;
+}
