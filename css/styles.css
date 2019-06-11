@@ -1,299 +1,81 @@
-/* for smartphones with screen size smaller than 600px */
+
 body{
-  font-family: proxima-nova-extra-condensed, sans-serif;
-  color: #707070;
-}
-
-.flexbox-container{
-  display: flex;
-  /* flex-flow: column wrap; */
-  justify-content: center;
-  flex-wrap: wrap;
-  /* border: 1px solid red; */
-}
-
-h1{
-  /* border: 1px solid orange; */
-  font-size: 38pt;
-  text-align: center;
-  line-height: 36pt;
-  color: #024873;
-}
-
-.body-copy{
-  font-size: 15pt;
-  /* border: 1px solid green; */
-  width: 75%;
-  padding: 20px;
-  margin: 0;
-}
-
-.icon-info-container{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  /* border: 1px solid green; */
-  width: 85vw;
-}
-
-.banking-icon{
-  order: 1;
-}
-
-.banking-caption{
-  order: 2;
-}
-
-.interview-icon{
-  order: 1;
-}
-
-.interview-caption{
-  order: 2;
-}
-
-.car-icon{
-  order: 3;
-}
-
-.car-caption{
-  order: 4;
-}
-
-.home-icon{
-  order: 3;
-}
-
-.home-caption{
-  order: 4;
-}
-
-.img1, .img2, .img3, .img4{
-  /* border: 1px solid blue; */
-  height: 80px;
-  width: 80px;
-  margin: 10px;
-  display: flex;
-  /* flex-direction: column; */
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-.img1{
-  color: #13803E;
-}
-
-.img2{
-  color: #5CC3FF;
-}
-
-.img3{
-  color: #647985;
-}
-
-.img4{
-  color: #82478A;
-}
-
-.img-caption{
-  font-size: 9pt;
-  width: 38%;
-  /* border: 1px solid tomato; */
-}
-
-.reference-img img{
-  width: 60vw;
-  margin: 20px 10px 10px 10px;
-}
-
-.caption{
-  font-size: 10pt;
-  width: 75%;
-}
-
-ol{
-  /* border: 1px solid red; */
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  padding-left: 10px;
-}
-
-.list-item{
-  width: 60%;
-  padding: 5px 5px 10px 5px;
-  /* border: 1px solid blue; */
+    font-family: proxima-nova-extra-condensed, sans-serif;
 }
 
 .font-bold{
-  font-weight: 700;
-  font-style: normal;
+    font-weight: 700;
+    font-style: normal;
 }
 
 .font-light{
-  font-weight: 300;
-  font-style: normal;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .font-italic{
-  font-weight: 400;
-  font-style: italic;
+    font-weight: 400;
+    font-style: italic;
 }
 
 .font-regular{
-  font-weight: 400;
-  font-style: normal;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .font-thin{
-  font-weight: 200;
-  font-style: normal;
+    font-weight: 200;
+    font-style: normal;
 }
 
-/* for small devices beginning at 600px */
-@media only screen and (min-width : 600px) {
-  h1{
-    text-align: left;
-    font-size: 48pt;
-  }
 
-  .body-copy{
-    font-size: 18pt;
-    /* border: 1px solid green; */
-    width: 80%;
-    padding: 20px;
-    margin: 0;
-  }
 
-  .img1, .img2, .img3, .img4{
-    /* border: 1px solid blue; */
-    height: 100px;
-    width: 100px;
-    margin: 40px 40px 10px 40px;
-  }
-
-  .img-caption{
-    font-size: 12pt;
-    width: 40%;
-    margin-bottom: 30px;
-    /* border: 1px solid red; */
-  }
-
-  .icon-info-container{
-    /* border: 1px solid green; */
-    width: 70vw;
-  }
-
-  .banking-icon{
-    order: 1;
-  }
-  
-  .banking-caption{
-    order: 2;
-  }
-  
-  .interview-icon{
-    order: 1;
-  }
-  
-  .interview-caption{
-    order: 2;
-  }
-  
-  .car-icon{
-    order: 3;
-  }
-  
-  .car-caption{
-    order: 4;
-  }
-  
-  .home-icon{
-    order: 3;
-  }
-  
-  .home-caption{
-    order: 4;
-  }
+.navbar, .navbar-brand, .nav-link {
+   background-color: #024873;
+    color:white;
+    
 }
 
-/* for large devices beginning at 992px */
-@media only screen and (min-width : 992px) {
-  .body-copy{
-    font-size: 12pt;
-    /* border: 1px solid green; */
-    width: 60%;
-    padding: 20px;
-    margin: 0;
-  }
-
-  .icon-info-container{
-    /* border: 1px solid green; */
-    width: 50vw;
-    justify-content: space-around;
-  }
-
-  .banking-icon{
-    order: 1;
-  }
-  
-  .banking-caption{
-    order: 5;
-  }
-  
-  .interview-icon{
-    order: 2;
-  }
-  
-  .interview-caption{
-    order: 6;
-  }
-  
-  .car-icon{
-    order: 3;
-  }
-  
-  .car-caption{
-    order: 7;
-  }
-  
-  .home-icon{
-    order: 4;
-  }
-  
-  .home-caption{
-    order: 8;
-  }
-
-  .img-caption{
-    font-size: 10pt;
-    width: 18%;
-    margin-bottom: 30px;
-    /* border: 1px solid red; */
-  }
-
-  .reference-img img{
-    /* border: 1px solid red; */
-    width: 40vw;
-    margin: 20px 10px 10px 10px;
-  }
-
-  ol{
-    /* border: 1px solid red; */
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    /* padding-left: 10px; */
-  }
-  
-  .list-item{
-    width: 65%;
-    padding: 5px 5px 10px 5px;
-    /* border: 1px solid blue; */
-  }
+.navbar a:hover{
+    color:#BF9BBF;
+   
 }
 
-.list-title{
-  font-size: 30px;
+.dropdown-menu a:hover{
+     background-color:#8AB0BF;
+     color:white;
 }
+
+.navbar-nav{
+    width: 100%;
+}
+.profile-icon{
+    color:#BF9BBF;
+}
+
+.profile-icon:hover{
+    color:white;
+}
+
+.collapse:not(.show) {
+    display:none;
+}
+.navbar-toggler {
+    border-color:#fff;
+    background-color: #BF9BBF; 
+    height:30px;
+}
+
+
+.fa-bars{
+    color:white;
+}
+
+.dropdown-menu.show{
+    width:190px;
+    
+}     
+
+
+
+
