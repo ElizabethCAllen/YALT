@@ -114,6 +114,7 @@ body{
 .navbar, .navbar-brand, .nav-link {
    background-color: #024873;
     color:white;
+   
     
 }
 
@@ -157,6 +158,9 @@ body{
     
 }     
 
+ .navbar-brand{
+    margin-left:5px;
+} 
 
 
 
