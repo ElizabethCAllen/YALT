@@ -82,6 +82,17 @@ body{
 } 
 
 
+.main-logo{
+    display: inline-block;
+    position: relative;
+}
+
+.main-logo{
+    display: inline-block;
+position: relative; 
+z-index: 1;
+}
+
 
 
 
