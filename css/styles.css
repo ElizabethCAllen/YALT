@@ -1,27 +1,80 @@
 
+
 body{
     font-family: proxima-nova-extra-condensed, sans-serif;
+
+.footer{
+  background-color: #024873;
+  height: auto;
+
+}
+.company-info{
+  color: white;  
+}
+.social-media{
+     color: #BF9BBF;
+  }
+.icon-padding{
+  padding:10px;
+}
+.twitter-account{
+  color: #BF9BBF;
+  }
+.instagram-account{
+  color: #BF9BBF;
+  }
+.facebook-account{
+   color: #BF9BBF;
+}
+.search-text{
+    background-color: white; 
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    text-align: center;   
+}
+.search-btn{
+    color:#BF9BBF;  
+    padding-left: 0%;
+}
+@media (min-width: 300px) { 
+  .company-info{
+  display: flex;
+  justify-content: center;
+  }
+  .social-media{
+    display: flex;
+    justify-content: center;
+  }
+  .form-inline{
+    display: flex;
+    justify-items: center;
+    padding-left:5.5em;
+    padding-bottom:
+  }
 }
 
-.font-bold{
-    font-weight: 700;
-    font-style: normal;
+@media (min-width: 576px) {
+  .company-info{
+    padding-left: 5px;
+    font-size: 9pt;
+  }
+ }
+
+@media (min-width: 768px) {
+  .company-info{
+    font-size: 9pt;
+  }
+  .justify-content-center{
+    display: none;
+  }
+  .form-inline{
+    padding-top: 9px;
+    padding-left: 0em;
+  }
+
 }
 
-.font-light{
-    font-weight: 300;
-    font-style: normal;
-}
-
-.font-italic{
-    font-weight: 400;
-    font-style: italic;
-}
-
-.font-regular{
-    font-weight: 400;
-    font-style: normal;
-}
 
 .font-thin{
     font-weight: 200;
@@ -95,4 +148,34 @@ z-index: 1;
 
 
 
+
+
+
+@media (min-width: 992px) {
+  .company-info{
+    font-size: 9pt;
+  }
+  .justify-content-center{
+    display: none;
+  }
+}
+  @media (min-width:1000px) {
+    .company-title{
+      padding-right:20px;
+    }
+    .form-inline{
+      padding-top: 0%;
+    
+    }
+  
+  }
+@media (min-width: 1200px) { 
+  .company-info{
+    padding-left: 5px;
+    font-size: 12pt;
+  }
+  .justify-content-center{
+    display: none;
+  }
+ }
 
