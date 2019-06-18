@@ -1,7 +1,13 @@
+
+
+body{
+    font-family: proxima-nova-extra-condensed, sans-serif;
+}
 .footer{
   background-color: #024873;
   height: auto;
 }
+
 .company-info{
   color: white;  
 }
@@ -70,6 +76,17 @@
 }
 
 
+.font-thin{
+    font-weight: 200;
+    font-style: normal;
+}
+
+
+
+
+
+
+
 @media (min-width: 992px) {
   .company-info{
     font-size: 9pt;
@@ -97,3 +114,80 @@
     display: none;
   }
  }
+.font-thin{
+    font-weight: 200;
+    font-style: normal;
+}
+
+.navbar {
+   background-color: #024873; 
+   color:white;
+}
+
+
+.navbar, .navbar-brand, .nav-link {
+   background-color: #024873;
+    color:white;
+   
+    
+}
+
+.navbar a:hover{
+    color:#BF9BBF;
+   
+}
+
+.dropdown-menu a:hover{
+     background-color:#8AB0BF;
+     color:white;
+}
+
+.navbar-nav{
+    width: 100%;
+}
+.profile-icon{
+    color:#BF9BBF;
+}
+
+.profile-icon:hover{
+    color:white;
+}
+
+.collapse:not(.show) {
+    display:none;
+}
+.navbar-toggler {
+    border-color:#fff;
+    background-color: #BF9BBF; 
+    height:30px;
+}
+
+
+.fa-bars{
+    color:white;
+}
+
+.dropdown-menu.show{
+    width:190px;
+    
+}     
+
+ .navbar-brand{
+    margin-left:5px;
+} 
+
+
+.main-logo{
+    display: inline-block;
+    position: relative;
+}
+
+.main-logo{
+    display: inline-block;
+position: relative; 
+z-index: 1;
+}
+
+
+
+
