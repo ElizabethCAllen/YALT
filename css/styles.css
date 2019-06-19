@@ -210,7 +210,7 @@ h1{
     justify-content: space-around;
   }
 
-  .banking-icon{
+   .banking-icon{
     order: 1;
   }
   
@@ -240,7 +240,7 @@ h1{
   
   .home-caption{
     order: 8;
-  }
+  } 
 
   .img-caption{
     font-size: 10pt;
