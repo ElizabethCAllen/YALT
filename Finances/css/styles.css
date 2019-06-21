@@ -1,0 +1,28 @@
+body{
+    font-family: proxima-nova-extra-condensed, sans-serif;
+}
+
+.font-bold{
+    font-weight: 700;
+    font-style: normal;
+}
+
+.font-light{
+    font-weight: 300;
+    font-style: normal;
+}
+
+.font-italic{
+    font-weight: 400;
+    font-style: italic;
+}
+
+.font-regular{
+    font-weight: 400;
+    font-style: normal;
+}
+
+.font-thin{
+    font-weight: 200;
+    font-style: normal;
+}
