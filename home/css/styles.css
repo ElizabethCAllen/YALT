@@ -307,7 +307,7 @@ ol{
     width: 70vw;
   }
 
-  .banking-icon{
+  /* .banking-icon{
     order: 1;
   }
 
@@ -338,7 +338,7 @@ ol{
   .home-caption{
     order: 4;
   }
-}
+} */
 
 
 /* ************* MIN-WIDTH 768PX ************* */
@@ -380,7 +380,7 @@ ol{
     justify-content: space-around;
   }
 
-  .banking-icon{
+  /* .banking-icon{
     order: 1;
   }
 
@@ -410,7 +410,7 @@ ol{
 
   .home-caption{
     order: 8;
-  }
+  } */
 
   .img-caption{
     font-size: 10pt;
@@ -460,4 +460,11 @@ ol{
     font-weight: 200;
     font-style: normal;
   }
+}
+footer  {
+  width:100%;
+}
+ 
+.icon{
+  width:100%;
 }
