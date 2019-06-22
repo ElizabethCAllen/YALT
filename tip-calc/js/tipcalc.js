@@ -1,4 +1,3 @@
-
 window.onload=function(){
 
     var calctip1 = document.getElementById('calctip1');
@@ -55,5 +54,5 @@ window.onload=function(){
     tiprate.textContent = (0).toFixed(2);
     totalElem.textContent = (0).toFixed(2); 
    }
-    }     
+   }     
             
