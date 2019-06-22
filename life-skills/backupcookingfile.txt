@@ -215,52 +215,26 @@
           marbled throughout and is less chewy, but grass-fed beef is leaner and more
           natural than grain-fed. Grass- fed cows walk around the pasture all day grazing,
           and although they develop stronger muscles, that means tougher meat.</p>
-        <p class="body-copy font-thin">Aging: “dry-aged” beef is kept in airy but nearly frozen storage for about a
-          month and is drier, denser, and more flavorful. Wet-aged meat is vacuum-
-          sealed to prevent water loss. Fresh beef is less tender than aged.</p>
-        <p class="body-copy font-thin">The grades of beef established by the US Department of Agriculture are, in
-          order of amounts of marbling, are prime, choice, and select. Prime beef is
-          usually sold to commercial businesses like restaurants.</p>
-        <p class="body-copy font-thin">Hamburger—buy hamburger from a store that grinds their own. Hamburger
-          needs to have some fat, but not more than about 20 percent.</p>
-        <p class="body-copy font-thin">Steaks—many cuts of meat are named “steak.”</p>
-        <p class="body-copy font-thin">Tenderloin or filet mignon is a small but tender and delicious part of
-          the beef.</p>
-        <p class="body-copy font-thin">T-bone and a porterhouse steaks are part “strip” steak and part “tenderloin” or
-          filet mignon. A porterhouse steak is larger and has more tenderloin on it.</p>
-        <p class="body-copy font-thin">Rib-eye steaks are well marbled and often have a rind of fat around them. Rib-
-          eyes may be the most delectable cut. Prime rib is cooked over a bed of rock
-          salt.</p>
-        <p class="body-copy font-thin">Strip steak or New York strip steak is a marbled and flavorful cut that is usually
-          not as soft as those described above. Be especially careful to press down to
-          judge the amount of connective tissue in the meat.</p>
-        <p class="body-copy font-thin">Top sirloin and sirloin steak are similar but top sirloin is of superior quality. Top sirloin is one of the better cuts of beef, along with the above steak types. Sirloin is a step down from top sirloin.</p>
-  
-       <li class="list-item font-light" id="pickingOutPork">How to pick out cuts of pork</li>
-        <p class="body-copy font-thin">All pork needs to be cooked to 160 degrees Fahrenheit because a trichinosis worm
-          infestation can be passed to humans from undercooked pork.</p>
-        <p class="body-copy font-thin">Bacon should be cut thick and be dry and meaty, not slimey and mostly fat. Some grocery store deli departments have good bacon. Packaged bacon can be too   wet and cut so thin that it’s hard to pull one strip off without tearing it.</p>
-        <p class="body-copy font-thin">Use salt pork in recipes calling for a ham hock or bacon fat. It’s almost but not
-          quite bacon.</p>
-        <p class="body-copy font-thin">Save bacon fat. Pork fat is nature’s key to flavor, and bacon drippings have
-          many uses. Add them to the oil you are using to sautee or fry fish, meat, or eggs. Add it to meatloaf, stews, cornbread, or gravy. Baste your turkey with it, brush it on a roast, or use it to grease a bread pan.</p>
-        <p class="body-copy font-thin"> Pork loin chops, bone in or bone out, can be pretty savory and tender. I look for
-          white meat, not red meat, on the chop. The dark meat tastes different, gamier than the white meat. Chops can be baked or pan fried or cooked in a pressure cooker.</p>
-        <p class="body-copy font-thin">Prociutto is a sweet and salty cured Italian-style ham that is widely available.</p>
-        <p class="body-copy font-thin">A good ham is hard to come by these days. The best ham can be very expensive and is dry, salty, and savory. A Honeybaked Ham is usually the best available where I live, but online you can discover some really wonderful country hams. The kind that is best varies over time, so look for current online information from gourment cooking magazine sites. Unfortunately, most grocery store hams are so infused with salt water that they cannot even call themselves hams but must use the term “ham and water product.” To use them, you have to cook the water out first, which leaves them too salty.</p>
-        <p class="body-copy font-thin">Smoked pork chops, if available, are drier and taste fine for use in fried rice,
-          casseroles, and omlettes.</p>
-        <p class="body-copy font-thin">Pork sausage is best made from grocery store plain ground pork, using your       own seasonings.</p>
-        <p class="body-copy font-thin">Ground pork is also good for tacos, fillings, meatloaf, and so on.</p>
-       <li class="list-item font-light" id="pickingOutSeafood">How to pick out seafood</li>
-        <p class="body-copy font-thin">Use a most reputable seafood market. It’s a good idea to ask whether the fish   arrived frozen or fresh, where it originated, whether it’s wild or farmed, and what kind it is if that is not clear. Farmed fish is greener but wild fish taste better and a lot of fish is mislabeled intentionally. Fresh is better than frozen but not always available.</p>
-        <p class="body-copy font-thin">Country of origin may be of concern. Imported seafood, especially shrimp,       tilapia, and eel, can be a hazard to health. Viet Nam and the Philippines have had contamination issues in the past, as has China. Hepatitis A, toxins, and heavy metals have been problems, historically.</p>
-        <p class="body-copy font-thin">When buying imported seafood, ask yourself whether you trust that country’s
-          health and food safety standards, because hardly any imported seafood is
-          inspected, let alone tested, by the US FDA. Most canned seafood is imported,
-          and lots of frozen and fresh seafood is also from foreign countries.</p>
-        <p class="body-copy font-thin">When buying seafood you may want to consult seafoodwatch.org to make sure you choose varieties that are not being over fished.</p>
-        <p class="body-copy font-thin">The best rules of thumb about seafood is that it should smell like clean          seawater, not like anything else, and, again, that you should use the most reputable seafood market. Check YELP. Any fish that smells “fishy” or like the beach at low tide is too old to buy. When buying a whole fish, the eye should be clear, not cloudy and the skin should be shiny and bright, not dried-out looking. Shellfish are especially tricky to evaluate for freshness. Bad shellfish can smell like garbage, but you can’t tell that if it’s frozen. This is where your market must be trustworthy.Frozen seafood from Trader Joe’s is pretty reliable for freshness.</p>
+        <p class="body-copy font-thin"></p>
+        <p class="body-copy font-thin"></p>
+        <p class="body-copy font-thin"></p>
+        <p class="body-copy font-thin"></p>
+        <p class="body-copy font-thin"></p>
+        <p class="body-copy font-thin"></p>
+        <p class="body-copy font-thin"></p>
+        <p class="body-copy font-thin"></p>
+       <li class="list-item font-light" id="pickingOutOther"></li>
+        <p class="body-copy font-thin"></p>
+        <p class="body-copy font-thin"></p>
+        <p class="body-copy font-thin"></p>
+        <p class="body-copy font-thin"></p>
+        <p class="body-copy font-thin"></p>
+        <p class="body-copy font-thin"></p>
+        <p class="body-copy font-thin"></p>
+        <p class="body-copy font-thin"></p>
+        <p class="body-copy font-thin"></p>
+        <p class="body-copy font-thin"></p>
+        <p class="body-copy font-thin"></p>
     </ol>
 
     <p class="body-copy font-thin"></p>
