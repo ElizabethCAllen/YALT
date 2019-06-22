@@ -1,3 +1,4 @@
+
 window.onload=function(){
 
     var calctip1 = document.getElementById('calctip1');
@@ -12,6 +13,7 @@ window.onload=function(){
     myBtn2.addEventListener('click', calc2);
     
     myBtn3.addEventListener('click',blankdata);
+    
     
     
      
@@ -45,15 +47,13 @@ window.onload=function(){
     }
     
     function blankdata(e) {
-        e.preventDefault();
-        document.getElementById('bill').value ="";
-        document.getElementById('tippercent').value ="";
-        document.getElementById('tipamt').value ="";
-        tipElem.textContent = (0).toFixed(2);
-        tiprate.textContent = (0).toFixed(2);
-        totalElem.textContent = (0).toFixed(2); 
-    
-    }
-    }
-            
+    e.preventDefault();
+    document.getElementById('bill').value ="";
+    document.getElementById('tippercent').value ="";
+    document.getElementById('tipamt').value ="";
+    tipElem.textContent = (0).toFixed(2);
+    tiprate.textContent = (0).toFixed(2);
+    totalElem.textContent = (0).toFixed(2); 
+   }
+    }     
             
