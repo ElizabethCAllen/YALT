@@ -1,0 +1,33 @@
+{
+  "name": "yalt",
+  "version": "1.0.0",
+  "description": "Young adult life times",
+  "main": "index.js",
+  "scripts": {
+    "test": "what am I dooing\u001b[D\u001b[D\u001b[D\u001b[\u001b[3~\u001b[3~\u001b[\u001b[C\u001b[C\u001b[C\u001boing?"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElizabethCAllen/YALT.git"
+  },
+  "keywords": [
+    "what",
+    "goes",
+    "here",
+    "young",
+    "adult",
+    "life",
+    "tips?"
+  ],
+  "author": "Elizabeth Allen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElizabethCAllen/YALT/issues"
+  },
+  "homepage": "https://github.com/ElizabethCAllen/YALT#readme",
+  "dependencies": {
+    "@angular/cli": "^8.0.3",
+    "@angular/fire": "^5.2.1",
+    "firebase": "^6.2.2"
+  }
+}
