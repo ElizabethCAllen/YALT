@@ -112,6 +112,13 @@ ol{
   padding-left: 10px;
 }
 
+ul{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-left: 10px;
+}
+
 .list-item{
   width: 60%;
   padding: 5px 5px 10px 5px;
@@ -246,6 +253,10 @@ ol{
   position: relative;
   z-index: 1;
 }
+
+.ending{
+  margin-bottom: 3em;
+}
 /* ************* END OF MOBILE BASIS ************* */
 
 
@@ -280,7 +291,7 @@ ol{
 /* for small devices beginning at 600px */
 @media only screen and (min-width : 600px) {
   h1{
-    text-align: left;
+    /* text-align: left; */
     font-size: 48pt;
   }
 
@@ -353,6 +364,9 @@ ol{
     padding-top: 9px;
     padding-left: 0em;
   }
+  .ending{
+    margin-bottom: 3em;
+  }
 }
 
 
@@ -368,11 +382,23 @@ ol{
     display: none;
   }
 
+  h1{
+    width: 100%;
+  }
+
+  .width-100{
+    width: 100%;
+  }
+
   .body-copy{
     font-size: 12pt;
     width: 60%;
     padding: 20px;
     margin: 0;
+  }
+
+  .heading-para{
+    padding-bottom: 6px;
   }
 
   .icon-info-container{
@@ -427,11 +453,16 @@ ol{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin-left: 100px; 
   } 
 
   .list-item{
     width: 65%;
     padding: 5px 5px 10px 5px;
+  }
+
+  .ending{
+    margin-bottom: 5em;
   }
 }
 
