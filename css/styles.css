@@ -449,12 +449,12 @@ ul{
     margin: 20px 10px 10px 10px;
   }
 
-  ol{
+  /* ol{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     margin-left: 100px; 
-  } 
+  }  */
 
   .list-item{
     width: 65%;
