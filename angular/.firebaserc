@@ -1,5 +1,6 @@
 {
   "projects": {
-    "yalt": "yalt-a82ce"
+    "yalt": "yalt-a82ce",
+    "default": "yalt-a82ce"
   }
 }
