@@ -247,8 +247,12 @@ ol{
   z-index: 1;
 }
 /* ************* END OF MOBILE BASIS ************* */
-
-
+.g-signin2{
+  margin: 3em;
+}
+.mt-5{
+  margin-bottom: 3em
+}
 /* ************* MIN-WIDTH 300PX - footer content ************* */
 @media (min-width: 300px) { 
   .company-info{
