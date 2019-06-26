@@ -33,7 +33,7 @@ h1{
   width: 85vw;
 }
 
-.banking-icon{
+/* .banking-icon{
   order: 1;
 }
 
@@ -63,7 +63,7 @@ h1{
 
 .home-caption{
   order: 4;
-}
+} */
 
 .img1, .img2, .img3, .img4{
   height: 80px;
@@ -259,11 +259,11 @@ ol{
     display: flex;
     justify-content: center;
   }
-  .form-inline{
+  /* .form-inline{
     display: flex;
     justify-items: center;
     padding-left: 5.5em;
-  }
+  } */
 }
 
 
@@ -307,7 +307,7 @@ ol{
     width: 70vw;
   }
 
-  /* .banking-icon{
+   /* .banking-icon{
     order: 1;
   }
 
@@ -337,8 +337,8 @@ ol{
   
   .home-caption{
     order: 4;
-  }
-} */
+  } */
+} 
 
 
 /* ************* MIN-WIDTH 768PX ************* */
@@ -380,7 +380,7 @@ ol{
     justify-content: space-around;
   }
 
-  /* .banking-icon{
+   /* .banking-icon{
     order: 1;
   }
 
@@ -410,7 +410,7 @@ ol{
 
   .home-caption{
     order: 8;
-  } */
+  }  */
 
   .img-caption{
     font-size: 10pt;
@@ -430,7 +430,7 @@ ol{
   } 
 
   .list-item{
-    width: 65%;
+    width: 65%; 
     padding: 5px 5px 10px 5px;
   }
 }
@@ -465,6 +465,26 @@ footer  {
   width:100%;
 }
  
-.icon{
+/* .icon{
   width:100%;
+}  */
+
+
+
+/* .info{
+  /* width:20%; 
+  padding-left:28px;
+} */
+
+/* .container-fluid {
+  width:100%;
+  justify-items:center;
+  float:right;
+} */
+
+.input-group {
+  width:100%;
+  flex-wrap:nowrap;
+align-items:center;
+ 
 }
