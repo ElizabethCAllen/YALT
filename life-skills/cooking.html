@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+    <link rel="manifest" href="../favicon/site.webmanifest">
+    <link rel="mask-icon" href="../favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="css/lifeskills.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/wtw0aew.css">
+    <title>Young Adult Life Tips</title>
+</head>
+<body>
+  <!-- BEGINNING OF NAVBAR -->
+  <nav class="navbar navbar-expand-lg">
+    <a class="main-logo" href="../index.html">
+      <object class="main-logo-svg" type="image/svg+xml" data="../yalt-logo-main.svg"></object>
+    </a>
+
+
+    <a class="navbar-brand" href="../index.html">YALT</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+      aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"><i class="bars_icon fas fa-bars"></i></span>
+    </button> <!-- end hamburger icon -->
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02"> <!-- beginning banking -->
+      <ul class="navbar-nav justify-content-end mr-auto mt-2 mt-lg-0"> <!-- beginning navbar-nav -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">Banking</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="./banking/check.html">Write a Check</a>
+            <a class="dropdown-item" href="./banking/bank-account.html">Open a Bank Account</a>
+            <a class="dropdown-item" href="./banking/credit-card.html">Apply For a Credit Card</a>
+            <a class="dropdown-item" href="./banking/tipping.html">Recommendations for Tipping</a>
+          </div>
+        </li> <!-- end banking -->
+
+        <li class="nav-item dropdown"> <!-- beginning job interviews -->
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">Job Interviews</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="./job-interviews/dress.html">How to Dress</a>
+            <a class="dropdown-item" href="./job-interviews/questions.html">Interview Questions</a>
+            <a class="dropdown-item" href="./job-interviews/todo.html">What Not To Do</a>
+            <a class="dropdown-item" href="./job-interviews/resume.html">A Professional Resume</a>
+          </div>
+        </li> <!-- end job interviews -->
+
+        <li class="nav-item dropdown"> <!-- beginning automotive -->
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">Automotive</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="./automotive/flat-tire.html">Changing a Flat Tire</a>
+            <a class="dropdown-item" href="./automotive/oil-change.html">Getting an Oil Change</a>
+            <a class="dropdown-item" href="./automotive/tire-tread.html">How to Check Tire Tread</a>
+            <a class="dropdown-item" href="./automotive/jump-start.html">Jump Starting your Car</a>
+          </div>
+        </li> <!-- end automotive -->
+
+        <li class="nav-item dropdown"> <!-- beginning life skills -->
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">Life Skills</a>
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Cooking</a>
+            <a class="dropdown-item" href="cleaning.html">Cleaning</a>
+            <a class="dropdown-item" href="laundry.html">Laundry</a>
+          </div>
+        </li> <!-- end life skills -->
+      </ul> <!-- end navbar-nav -->
+    </div> <!-- end of collapse navbar -->
+    <div> <!-- beginning profile-icon -->
+      <a href="../login/login.html"><i class="profile-icon fas fa-user"></i></a>
+    </div> <!-- end profile-icon -->
+  </nav>
+  <!-- END OF NAVBAR -->
+  <div class="flexbox-container"> <!-- beginning flexbox-container -->
+  <div class="container d-flex justify-content-center">
+    <div class="row">
+        <h1>Basics of Cooking</h1>
+    </div>
+   </div> 
+    <p class="body-copy font-thin">This section will go over the basic knowledge, essentials, and techniques needed  for rudimentary cooking. The contents in the dropdown menus below will give you an overview of all the information in this section.</p>
+    <div class="container d-flex justify-content-center">
+        <div class="row">
+            <div class="col">
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" x-placement="bottom-start" aria-haspopup="true" aria-expanded="false">
+                      Knowledge
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#pickingOutFood">How to pick out food</a>
+                      <a class="dropdown-item" href="#foodSafety">Food safety</a>
+                      <a class="dropdown-item" href="#dAndD">Do's and don'ts of cooking</a>
+                      <a class="dropdown-item" href="#cookingLifeHacks">Lifehacks</a>
+                      <a class="dropdown-item" href="#whichOils">Which oils to use</a>
+                      <a class="dropdown-item" href="#kitchenwareCare">How to properly care for your kitchenware</a>
+                      <a class="dropdown-item" href="#grindingHerbs">How to grind herbs/spices</a>
+                      <a class="dropdown-item" href="#recommendedResources">Recommended resources</a>
+                      <a class="dropdown-item" href="#roastingMeat">Roasting meat</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Essentials
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#kitchenware">Kitchenware</a>
+                      <a class="dropdown-item" href="#ingredients">Herbs, spices, and ingrdients</a>
+                      <a class="dropdown-item" href="#preppingProduce">Prepping produce and cutting</a>
+                    </div>  
+                  </div>
+            </div>
+            <div class="col"> 
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Techniques
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#rice">How to make Rice</a>
+                      <a class="dropdown-item" href="#roux">How to make a Roux</a>
+                      <a class="dropdown-item" href="#pasta">How to cook pasta</a>
+                      <a class="dropdown-item" href="#biscuits">How to make biscuits</a>
+                      <a class="dropdown-item" href="#yeastRolls">How to yeast rolls</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <ol>
+      <li class="list-item font-light"  id="pickingOutfood">How to pick out Fruit</li>
+         <p class="body-copy font-thin">With apricots and other stone fruits (peaches, plums,etc), the skin should be unbroken and evenly colored with no browned or mushy spots. Plums should be smooth-skinned. Give the fruit a very gentle squeeze. If it’s hard, the fruit will be tart and firm. If there is a little give, it is probably just ripened and sweet but firm. If the fruit is softer, it will be soft inside and very sweet.</p>
+         <p class="body-copy font-thin">Pears should be hard or very firm with no bruised spots. At home, they ripen very quickly, so don’t wait too long to use them.</p>
+         <p class="body-copy font-thin">Tomatoes should be brightly colored, slightly soft when squeezed, with shiny skins and no mushy spots.</p>
+         <p class="body-copy font-thin">Apples should be quite firm and evenly colored, with no gouges,cuts, holes, or brown or mushy spots.</p>
+         <p class="body-copy font-thin">Melons should be hard, heavy for their size, and for cantaloupes and honeydews, the navel spot should smell like a good ripe melon tastes. Watermelons should be shiny, clean, and golden on the bottom side. Thunk the melon with your finger.You want a melon with a medium pitch, not too deep (overripe) or too high (green).
+            </p>
+         <p class="body-copy font-thin">Citrus fruit should be firm, with shiny, tight skins. When you squeeze it, it should seem full of juice. Fruit with thick skins is often old and dry.</p>
+         <p class="body-copy font-thin">Strawberries should be medium-sized and red, not large or yellow in places. Look at the bottom of the container to check for mold.</p>
+         <p class="body-copy font-thin">Cherries, raspberries, and blueberries from the supermarket are all pretty uniform in taste and quality. Home grown or freshly picked is always better, if you can get it.</p>
+         <p class="body-copy font-thin">Bananas are mostly a matter of personal taste. Green or freckled, it just depends on your preference.</p>
+         <p class="body-copy font-thin">Avocados are tricky. Green shiny ones might not be as perfect as they seem. A lot depends on when you are going to use the fruit and how. For guacamole you will make today, you want avocados that are soft but not mushy. If you buy hard ones, it won’t work. It doesn’t matter whether the outside is attractive, it only matters that, when you squeeze them ever so gently, the have a bit of give. If the little black button stem comes off easily, it’s ripe. Avocados will ripen in your non refrigerated fruit basket, but the rate of ripening is not 100 percent predictable. If you need them to be used in a fresh salad in three days, buy the ones that have only a little softness to them. If you need them in a week, go ahead and buy harder ones.</p>
+         <p class="body-copy font-thin">Grapes are a crap-shoot. What looks delectable can be sour and awful. It’s best to rely on a good local produce department to offer better grapes rather than just rolling the dice and hoping.</p>
+         <p class="body-copy font-thin">Pineapples do not ripen after picking. A ripe pineapple’s stem end will smell sweet. Choose a pineapple that has a little give when you squeeze it, and one of the topmost leaves should come off with ease when you pull it gentle.</p>
+
+      <li class="list-item font-light" id="pickingOutVeg">How to pick out vegetables</li>
+        <p class="body-copy font-thin">Potatoes and other root vegetables, such as beets and carrots, should be hard, with no scars or gouge marks in the skin where processing machinery cut into the produce. There are several different colors of potatoes, carrots, beets, etc. The big brown potatoes called russets are for baking, and little potatoes are called new potatoes and are for mashed potatoes and other uses. Smaller potatoes should have smooth skins.</p>
+        <p class="body-copy font-thin">Celery should be light in color and very firm, with crisp, fresh leaves.</p>
+        <p class="body-copy font-thin">Asparagus should be small and very firm. It should have longer flexible spear tops and less inedible hard lower stems</p>
+        <p class="body-copy font-thin">Onions come in different types. Spanish onions are reddish-purple and mild tasting. Sweet onions usually are more flat in shape and come in white and yellow varieties. The most commonly used kinds are globe yellow or white onions. Onions should be dry and very firm and heavy for their size. Avoid buying ones with black areas anywhere on the skin, because this is a mold that can make short work of your onion once it gets home. The flatter onions are usually sweeter and more aromatic. Green onions are baby onions with a unique flavor. The stalks should be firm and not floppy, and the bulbs at the bottom should be shiny, and feel tightly packed</p>
+        <p class="body-copy font-thin">Corn on the cob should be just as fresh as possible. Look for full, heavy ears that have dry, brown silk on the ends. The kernels should be small, not large and coarse.</p>
+        <p class="body-copy font-thin">Cucumbers are best when small and fresh. Fresh cucumbers are firm like an apple and shiny. Smaller ones are sweeter and have fewer seeds.</p>
+        <p class="body-copy font-thin">Zucchini is a kind of squash. It’s green, with slightly fuzzy, mottled skin. Young, firm squash make the best eating. Good sliced in salads or sauteed with onions and garlic.</p>
+        <p class="body-copy font-thin">Summer squash or crookneck squash is a curved yellow squash with a thin, bright yellow skin. Young, very firm squash make the best eating.</p>
+        <p class="body-copy font-thin">Broccoli is a cluster of flowers. Old broccoli is floppy, bitter, and starting to bloom with yellow flowers. Good broccoli has tightly closed, dense heads and a deep blue-green color.</p>
+        <p class="body-copy font-thin">Cabbage should be brightly colored and quite firm and heavy. It is easily mistaken for lettuce, and visa versa, so make sure it's  cabbage that you are buying. </p>
+        <p class="body-copy font-thin">Lettuce comes in many kinds and colors. More nutritious types are brightly colored. Arugula and and some others can be slightly bitter, which works best when combined with other flavors. Lettuce should look clean and feel crispy, and have little to no discoloration from the natural colors. Iceberg lettuce is nearly nutrition-free. Look for firm heads that don’t have a browned stem. Butter lettuce is a soft, sweet variety that comes in rounded heads. Red and green leaf lettuces are longer leaved salad standards. Romaine is a leafy lettuce used in Caesar salad or to add crunch to a mixed greens bowl.</p>
+        <p class="body-copy font-thin">Fresh spinach should be tender, but not floppy, and bright green, not dulled to a waxy, tired-looking color.</p>
+        <p class="body-copy font-thin">Fresh green beans are often offered when they have passed their prime. Look for tender, moist-looking beans with a bright color. Avoid scarred, dulled beans. </p>
+        <p class="body-copy font-thin">Peppers should be very firm, not soft or wrinkled, and brightly colored. Green sweet Bell peppers ripen into yellow, orange, and red peppers. The only difference is the degree of ripeness.</p>
+
+      <li class="list-item font-light" id="pickingOutOther">How to pick out non-plant produce</li>
+        <p class="body-copy font-thin">Mushrooms should be dry, very firm, and evenly colored. Mushroom caps should be tightly closed, with no gills underneath exposed.Never slimy or soft and floppy.</p>
+
+      <li class="list-item font-light" id="pickingOutMeat">How to choose cuts of meat</li>
+        <p class="body-copy font-thin">You can find a universe of wonderful recipes on the internet or in magazines or
+          bookstores. Knowing how to choose the best ingredients is not usually included but is vital to success. The most common meats in the American diet are beef, chicken, pork, lamb, and seafood. When buying meat, remember that meat can always be contaminated.</p>
+        <p class="body-copy font-thin">Beef, lamb, or tuna can be eaten rare, but that does not apply to other meats, as
+          a rule. Cook other processed meat well to prevent food-borne illness. You will need a meat thermometer.</p>
+        <p class="body-copy font-thin"> Processed meat is what is usually found at the grocery store. It arrives at the
+          meat department sealed in plastic and is cut up and wrapped in the store. Sometimes a butcher shop or country store will have meat that is not processed in a factory. Sometimes a butcher shop has the same kind of meat found at the grocery store, however. You will just have to ask. In addition, the category of processed meat includes “lunch meats,” and meat found in frozen dinners, snacks, and ready-to-eat entrees. These industrial
+          products may contain dyes, trimmings, undesirable parts of the animal, preservatives, MSG, salt water, soy, or pink slime. (See below.)</p>
+        <p class="body-copy font-thin">At the deli counter of your grocery store or in the meat department, look for meat
+          that is shaped like a roast or natural cut of meat, not like a tube or oval. Look for natural muscle grain in the meat, and not a uniform texture that includes air bubbles. A lot of lunch meat is basically a cooked slop made of meaty bits, chemicals, salt, and water, with air whipped in to add volume. It’s more like a
+          sponge than like meat. This piece will not even contemplate sausage.</p>
+        <p class="body-copy font-thin">Mass produced hamburger and beef-based processed meats may contain <a href="https://en.wikipedia.org/wiki/Pink_slime"> “pink slime,”</a> which may contain ammonia. Pink slime is not allowed for human consumption in the EU and Canada, and for good reason.</p>
+
+      <li class="list-item font-light" id="pickingOutBeef">How to choose cuts of Beef</li>
+        <p class="body-copy font-thin">Tough cuts of meat are best prepared by stewing, pressure cooking, or other
+          moist cooking method. Finer cuts can be roasted or broiled.</p>
+        <p class="body-copy font-thin">A good cut of beef should be soft and pliable. Press on it with your fingertips to
+          see if it has some give, like foam rubber or a pillow. If it’s harder, that means it
+          has more connective tissue in it, which is what makes meat tough.</p>
+        <p class="body-copy font-thin">Grain-fed beef is often thought superior to grass-fed beef. It has more fat
+          marbled throughout and is less chewy, but grass-fed beef is leaner and more
+          natural than grain-fed. Grass- fed cows walk around the pasture all day grazing,
+          and although they develop stronger muscles, that means tougher meat.</p>
+        <p class="body-copy font-thin">Aging: “dry-aged” beef is kept in airy but nearly frozen storage for about a
+          month and is drier, denser, and more flavorful. Wet-aged meat is vacuum-
+          sealed to prevent water loss. Fresh beef is less tender than aged.</p>
+        <p class="body-copy font-thin">The grades of beef established by the US Department of Agriculture are, in
+          order of amounts of marbling, are prime, choice, and select. Prime beef is
+          usually sold to commercial businesses like restaurants.</p>
+        <p class="body-copy font-thin">Hamburger—buy hamburger from a store that grinds their own. Hamburger
+          needs to have some fat, but not more than about 20 percent.</p>
+        <p class="body-copy font-thin">Steaks—many cuts of meat are named “steak.”</p>
+        <p class="body-copy font-thin">Tenderloin or filet mignon is a small but tender and delicious part of
+          the beef.</p>
+        <p class="body-copy font-thin">T-bone and a porterhouse steaks are part “strip” steak and part “tenderloin” or
+          filet mignon. A porterhouse steak is larger and has more tenderloin on it.</p>
+        <p class="body-copy font-thin">Rib-eye steaks are well marbled and often have a rind of fat around them. Rib-
+          eyes may be the most delectable cut. Prime rib is cooked over a bed of rock
+          salt.</p>
+        <p class="body-copy font-thin">Strip steak or New York strip steak is a marbled and flavorful cut that is usually
+          not as soft as those described above. Be especially careful to press down to
+          judge the amount of connective tissue in the meat.</p>
+        <p class="body-copy font-thin">Top sirloin and sirloin steak are similar but top sirloin is of superior quality. Top sirloin is one of the better cuts of beef, along with the above steak types. Sirloin is a step down from top sirloin.</p>
+  
+       <li class="list-item font-light" id="pickingOutPork">How to pick out cuts of pork</li>
+        <p class="body-copy font-thin">All pork needs to be cooked to 160 degrees Fahrenheit because a trichinosis worm
+          infestation can be passed to humans from undercooked pork.</p>
+        <p class="body-copy font-thin">Bacon should be cut thick and be dry and meaty, not slimey and mostly fat. Some grocery store deli departments have good bacon. Packaged bacon can be too   wet and cut so thin that it’s hard to pull one strip off without tearing it.</p>
+        <p class="body-copy font-thin">Use salt pork in recipes calling for a ham hock or bacon fat. It’s almost but not
+          quite bacon.</p>
+        <p class="body-copy font-thin">Save bacon fat. Pork fat is nature’s key to flavor, and bacon drippings have
+          many uses. Add them to the oil you are using to sautee or fry fish, meat, or eggs. Add it to meatloaf, stews, cornbread, or gravy. Baste your turkey with it, brush it on a roast, or use it to grease a bread pan.</p>
+        <p class="body-copy font-thin"> Pork loin chops, bone in or bone out, can be pretty savory and tender. I look for
+          white meat, not red meat, on the chop. The dark meat tastes different, gamier than the white meat. Chops can be baked or pan fried or cooked in a pressure cooker.</p>
+        <p class="body-copy font-thin">Prociutto is a sweet and salty cured Italian-style ham that is widely available.</p>
+        <p class="body-copy font-thin">A good ham is hard to come by these days. The best ham can be very expensive and is dry, salty, and savory. A Honeybaked Ham is usually the best available where I live, but online you can discover some really wonderful country hams. The kind that is best varies over time, so look for current online information from gourment cooking magazine sites. Unfortunately, most grocery store hams are so infused with salt water that they cannot even call themselves hams but must use the term “ham and water product.” To use them, you have to cook the water out first, which leaves them too salty.</p>
+        <p class="body-copy font-thin">Smoked pork chops, if available, are drier and taste fine for use in fried rice,
+          casseroles, and omlettes.</p>
+        <p class="body-copy font-thin">Pork sausage is best made from grocery store plain ground pork, using your       own seasonings.</p>
+        <p class="body-copy font-thin">Ground pork is also good for tacos, fillings, meatloaf, and so on.</p>
+
+       <li class="list-item font-light" id="pickingOutSeafood">How to pick out seafood</li>
+        <p class="body-copy font-thin">Use a most reputable seafood market. It’s a good idea to ask whether the fish   arrived frozen or fresh, where it originated, whether it’s wild or farmed, and what kind it is if that is not clear. Farmed fish is greener but wild fish taste better and a lot of fish is mislabeled intentionally. Fresh is better than frozen but not always available.</p>
+        <p class="body-copy font-thin">Country of origin may be of concern. Imported seafood, especially shrimp,       tilapia, and eel, can be a hazard to health. Viet Nam and the Philippines have had contamination issues in the past, as has China. Hepatitis A, toxins, and heavy metals have been problems, historically.</p>
+        <p class="body-copy font-thin">When buying imported seafood, ask yourself whether you trust that country’s
+          health and food safety standards, because hardly any imported seafood is
+          inspected, let alone tested, by the US FDA. Most canned seafood is imported,
+          and lots of frozen and fresh seafood is also from foreign countries.</p>
+        <p class="body-copy font-thin">When buying seafood you may want to consult seafoodwatch.org to make sure you choose varieties that are not being over fished.</p>
+        <p class="body-copy font-thin">The best rules of thumb about seafood is that it should smell like clean          seawater, not like anything else, and, again, that you should use the most reputable seafood market. Check YELP. Any fish that smells “fishy” or like the beach at low tide is too old to buy. When buying a whole fish, the eye should be clear, not cloudy and the skin should be shiny and bright, not dried-out looking. Shellfish are especially tricky to evaluate for freshness. Bad shellfish can smell like garbage, but you can’t tell that if it’s frozen. This is where your market must be trustworthy.Frozen seafood from Trader Joe’s is pretty reliable for freshness.</p>
+
+        <li class="list-item font-light" id="foodSafety">Food safety</li>
+        <p class="body-copy font-thin">Food poisoning can be an ordeal and can be fatal in some cases.  Thus, it is very important to use good sanitary practices in the kitchen.
+          </p>
+        <p class="body-copy font-thin">It’s best to refrigerate all perishable foods as soon as you can manage it.  That said, perishable foods should not be left out more than one or two hours before being put into the fridge.  Foods containing rare meat or egg should be refrigerated immediately.  When in doubt, throw it out.</p>
+        <p class="body-copy font-thin">The most dangerous foods to handle are seafoods, raw chicken, and raw pork.</p>
+        <p class="body-copy font-thin">Have a separate plastic cutting board you use only for raw chicken and raw pork and bleach it after use.</p>
+        <p class="body-copy font-thin">Be mindful of cross-contamination.  If you just cut up some raw chicken, wash the counter with a bleach cleaner and paper towels, use a different cutting board, and use a clean knife to prep your salad ingredients or anything else.   And wash your hands in between. </p>
+        <p class="body-copy font-thin">Always wash your hands when you return home from being in public. </p>
+        <p class="body-copy font-thin"><b>Cleaning the tools</b></p>
+        <p class="body-copy font-thin">Wash all utensils and plates,  cutlery, etc., in a way that kills germs.  Bleach is the best kitchen sanitizer.</p>
+        <p class="body-copy font-thin">Use a dishwasher with a heat-dry function, which sterilizes most items, or add a half-cup of bleach at the rinse cycle.  </p>
+        <p class="body-copy font-thin">
+            To wash items by hand, have ready:  dish soap, a clean wash rag, an abrasive scrubbing pad, a bottle brush, a clean towel, hot, soapy water, a bleach rinse water, a dish drainer or a couple of clean kitchen towels, and hot running water.</p>
+        <p class="body-copy font-thin">Hand washed items should be rinsed in dilute bleach water – roughly a gallon of water to a third of a cup of bleach—then in clean hot water.  Anything wooden rinsed in bleach water should not be left to soak.
+          </p>
+        <p class="body-copy font-thin">Remember that nothing tells your guests you are a slob like handing them a greasy glass to drink from or a crusty fork to eat with.
+          </p>
+        <p class="body-copy font-thin"><b>How to wash the dishes:</b></p>
+        <p class="body-copy font-thin">Scrape all excess food from items.  Soak dirty dishes in a sink or plastic tub of hot tap water with dish soap in it.</p>
+        <p class="body-copy font-thin">Hand wash each object with a dishrag dipped in hot, soapy water.  Carefully wash every surface, including the insides, outsides, and undersides of all items.  Take care to clean handles and the undersides of rims. Make sure to double-check each object.</p>
+        <p class="body-copy font-thin">Immerse all items in the hot bleach-water for about five minutes.</p>
+        <p class="body-copy font-thin">Rinse each item in clean, hot water, then place in the dish drainer or on the clean towels to air-dry.  Instead, you could dry everything with a clean towel and then put it away. </p>
+        <p class="body-copy font-thin">To clean burnt-on food that a scrubbing pad will not remove, dab on a paste made of baking soda and water and let stand for 30 minutes.  Then wipe and rinse, and try scrubbing again if some remains.</p>
+        <p class="body-copy font-thin"><b>Kitchen cleanliness</b></p>
+        <p class="body-copy font-thin">Wash your hands often.  Dry them on clean towels changed daily or paper towels.
+          </p>
+        <p class="body-copy font-thin">The sink should be cleaned every couple of days.  Use a scouring powder or whatever is recommended by the sink manufacturer.  Be sure to catch every corner and edge, the faucet, handles, the back splash, and behind the faucet.
+          </p>
+        <p class="body-copy font-thin">Wash sink drain strainers and plugs, bottle brushes, sponges, scrubbing pads, etc., in the dishwasher, then soak in bleach-water for five minutes.
+          </p>
+        <p class="body-copy font-thin">Throw out sponges that are ratty or slimy.  Throw out worn out brushes and scrubbers sooner rather than later.  New ones are much less germy and work better.</p>
+        <p class="body-copy font-thin">It’s very important to keep counters clean and sanitary.  Scrub well daily and rinse in bleach water.  You can let it stand for a few minutes if the surface allows.  Smooth stone surfaces can be cleaned with a razor scraper if need be.</p>
+        <p class="body-copy font-thin">Wipe down the hood vent and other stove surfaces at least once a week.  These tend to accumulate grease and particles.</p>
+        <p class="body-copy font-thin"> Cupboard surfaces should be wiped clean once a week or as needed.  The tops of drawers and doors can need special attention.</p>
+        <p class="body-copy font-thin">Close all drawers and cabinets while handling food.</p>
+        <p class="body-copy font-thin">Place a knife on the counter far from the edge and certainly not protruding from the edge, where it could easily be knocked off or otherwise become a danger.</p>
+        <p class="body-copy font-thin">Use knives, peelers, ice picks, and other sharp tools in a motion away from your body, not toward it, to avoid injury.</p>
+        <p class="body-copy font-thin">Pan handles should never protrude from the edge of the stove.</p>
+        <p class="body-copy font-thin"> Never drop anything into boiling water or hot fat in such a way that it could make a splash.  Lower things gently with tongs or a spoon.</p>
+        <p class="body-copy font-thin"> Sweep the kitchen floor daily and mop as needed or once a week.</p>
+        <p class="body-copy font-thin"> A refrigerator should be cleaned outside once a week and inside about once a month.  Baking soda paste can remove tough food stains.</p>
+        <p class="body-copy font-thin"></p>
+        <li class="list-item font-light" id="dAndD">Do's and don'ts of cooking</li>
+        <p class="body-copy font-thin"><b>Do's of cooking</b></p>
+        <p class="body-copy font-thin">Do wash your hands for 20 seconds before and after any food.
+          </p>
+        <p class="body-copy font-thin">Do use expiration dates as general guidelines.</p>
+        <p class="body-copy font-thin">Do use a meat thermometer</p>
+        <p class="body-copy font-thin">Do clean all your surfaces and sinks where any raw meats or juices may have touched.
+          </p>
+        <p class="body-copy font-thin">Do wash produce.
+          </p>
+        <p class="body-copy font-thin"><b>Don'ts of cooking </b></p>
+        <p class="body-copy font-thin">Don’t allow leftovers to cool to room temperature before refrigerating them.
+          </p>
+        <p class="body-copy font-thin">Don’t wash meat and poultry: Rinsing raw meat and poultry, can actually increase your chances of spreading nasty bacteria.
+          </p>
+        <p class="body-copy font-thin">Don’t use the same surface and sinks where any raw meats or juices may have touched.
+          </p>
+        <p class="body-copy font-thin">Don’t soak meat in salt water in an effort to remove bacteria</p>
+        <li class="list-item font-light" id="whichOils">Which oils to use</li>
+        <div class="icon-info-container">
+            <div class="reference-img">
+                <img class="reference-img" src="../imgs/charts-01.png">
+              </div>
+              <div class="reference-img">
+                 <img class="reference-img" src="../imgs/charts-02.png">
+              </div>
+          </div>
+        <li class="list-item font-light" id="kitchenwareCare">How to properly care for your kitchenware</li>
+        <p class="body-copy font-thin"><b>Sharpening knives</b></p>
+        <p class="body-copy font-thin">Do not  sharpen your serrated knives</p>
+        <p class="body-copy font-thin">Use a sharpener or a honing steel</p>
+        <p class="body-copy font-thin">Make sure you use the wet stone or whatever the same number of times on each side of the blade</p>
+        <p class="body-copy font-thin">Make sure not to knick the blade</p>
+        <p class="body-copy font-thin">You should sharpen your knives ever two or three uses </p>
+        <p class="body-copy font-thin"><b>Seasoning your cast iron skillet </b></p>
+        <p class="body-copy font-thin">You will need to polymerize it,  which is a process of reacting monomer molecules together in a chemical reaction to form polymer chains or three-dimensional networks. To do this you coat the pan in an oil with a high smoking point, flax oil is the best for that, but coconut and canola oil will do. After that you put it in the oven  and turn up the heat to 375 degrees and leave it for an hour. Make sure you place tin foil or a cookie sheet on the shelf below it to catch any oil drips.</p>
+        <p class="body-copy font-thin"><b>Oiling wooden tools</b></p>
+        <p class="body-copy font-thin">Use mineral oil on your tool (including cutting boards), seeing as food based oils can spoil, oil them two to three times a year.</p>
+        <p class="body-copy font-thin"><b>Cleaning mortar and pestle/ Molcajete / herb grinder</b></p>
+        <p class="body-copy font-thin">Pour salt  into it, and grind it into a fine powder making sure to grind the salt into the sides, then pour out the salt and wipe it out with a clean towel.</p>
+        <li class="list-item font-light" id="grindingHerbs">How to grind herbs/spices</li>
+        <p class="body-copy font-thin">You can use a mortar and pestle, or a coffee grinder, but a blender of some sort will do. </p>
+        <p class="body-copy font-thin">Certain herbs and spices will need to be crushed before hand if you are using an electric grinder. </p>
+        <p class="body-copy font-thin">You can mix whatever herbs you are using together if you so desire, I find it’s faster</p>
+        <p class="body-copy font-thin">Typically the finer you grind your herbs and spices the less likely you are to get a large chunk of it in your mouth while eatting, which can ruin a mouthful of delicious food. Also it is considered desirable to not be able to chucks of herbs in food.</p>
+        <p class="body-copy font-thin"> Freshly ground herbs and spices are typically more flavorful than pre-ground, which makes you seem like a better cook to those who are not used to it.</p>
+        <li class="list-item font-light" id="recommendedResouces">Recommended cooking resources /li>
+        <p class="body-copy font-thin">“The Joy of Cooking” Irma S. Rombauer</p>
+        <p class="body-copy font-thin">yummly app</p>
+        <li class="list-item font-light" id="roastingMeat">Roasting meat</li>
+        <p class="body-copy font-thin">Roasts are cuts of beef before they are sliced into individual steaks. Always cook roasts with the fat side up. If they have no fat, you can lay strips of bacon on top or baste with olive oil and butter as they cook.</p>
+        <p class="body-copy font-thin">Tenderloin roast is the filet, a small but excellent cut of beef.</p>
+        <p class="body-copy font-thin">Rib roast or rib-eye roast is an excellent and toothsome larger roast for special occasions. </p>
+        <p class="body-copy font-thin">Top sirloin and sirloin roasts are best cooked slowly or with a moist cooking method. </p>
+        <p class="body-copy font-thin">Tri-tip is a West Coast name for a particular part of the sirloin that is sort of triangular in shape. Tri-tip is of inconsistent quality. Do the press test to find a palatable steak. Some can be really tough and gristly. </p>
+        <p class="body-copy font-thin">Sirloin roasts, eye of round roasts, bottom round roasts, and any other kind of roast cuts are best prepared with moist methods, such as stew, soup, pepper steak, a casserole, or pot roast—in any case in a covered container with liquid in it.</p>
+        <p class="body-copy font-thin">Cross-rib roasts are not worth the effort it might take to make them edible.</p>
+        <p class="body-copy font-thin">Pork loin roast can also be very good when slow cooked and well seasoned. Slice it thin and offer a gravy or sauce because the meat can be a little dry. </p>
+        <p class="body-copy font-thin">Pork shoulder roasts are best used in chile verde or other wet-method cookery. </p>
+        <p class="body-copy font-thin">Spareribs are fatty and flavorful. They should be cooked until the fat is mostly melted away and the meat is falling off the bone. Marinate first if the recipe calls for that. </p>
+        <p class="body-copy font-thin">Country-style ribs should be meaty. They can be tricky. Find a tried and true recipe for these.</p>
+    </ol>
+    <ol>
+      <li class="list-item font-light" id="kitchenware">A list of items you need to have in your kitchen
+        <ul>
+          <li class="list-item font-light">Knife set</li>
+          <li class="list-item font-light">Pots and pans set (large, medium, small pots for boiling, and different sizes of frying pans)
+          </li>
+          <li class="list-item font-light">Strainers</li>
+          <li class="list-item font-light">Electric kettle</li>
+          <li class="list-item font-light">Pepper grinder</li>
+          <li class="list-item font-light">Microwave</li>
+          <li class="list-item font-light">Mixing bowls </li>
+          <li class="list-item font-light">Different sized cake pans</li>
+          <li class="list-item font-light">Wooden spoons</li>
+          <li class="list-item font-light">Plastic wrap</li>
+          <li class="list-item font-light">assorted plastic zip lock bags</li>
+          <li class="list-item font-light">Parchment</li>
+          <li class="list-item font-light">aluminum foil</li>
+          <li class="list-item font-light">Waxed paper</li>
+          <li class="list-item font-light">Plastic and metal spatulas in different sizes</li>
+          <li class="list-item font-light">Whisk</li>
+          <li class="list-item font-light">Meat thermometer</li>
+          <li class="list-item font-light">Candy thermometer</li>
+          <li class="list-item font-light">Electric mixer</li>
+          <li class="list-item font-light">Shredder/slicer</li>
+          <li class="list-item font-light">Cheese grater</li>
+          <li class="list-item font-light">Knife sharpener or honing steel</li>
+          <li class="list-item font-light">Cutlery for eating with</li>
+          <li class="list-item font-light">Medium and large casserole dishes</li>
+          <li class="list-item font-light">Vegetable peeler</li>
+          <li class="list-item font-light">Mortar and pestle</li>
+          <li class="list-item font-light">Measuring spoons/cups</li>
+          <li class="list-item font-light">Cast iron skillet</li>
+          <li class="list-item font-light">Non-stick skillet</li>
+          <li class="list-item font-light">Immersion blender </li>
+          <li class="list-item font-light">Cutting board (two or three of varying sizes)</li>
+          <li class="list-item font-light">Aprons, both a fabric one, and a plastic one</li>
+          <li class="list-item font-light">A set of cups</li>
+          <li class="list-item font-light">A set of mugs</li>
+          <li class="list-item font-light">A set of small plates</li>
+          <li class="list-item font-light">A set of large plates</li>
+          <li class="list-item font-light">A set of eating bowls</li>
+          <li class="list-item font-light">ladels</li>
+        </ul>
+      </li>
+      <li class="list-item font-light" id="ingredients">List of essential herbs and ingredients 
+      <br>
+        <ul>
+          <li class="list-item font-light">Oregano </li>
+          <li class="list-item font-light">Basil</li>
+          <li class="list-item font-light">Bay leaves</li>
+          <li class="list-item font-light">Cumin or comino</li>
+          <li class="list-item font-light">Poultry seasoning </li>
+          <li class="list-item font-light">Salt </li>
+          <li class="list-item font-light">Granulated sugar</li>
+          <li class="list-item font-light">Brown sugar</li>
+          <li class="list-item font-light">Powdered sugar</li>
+          <li class="list-item font-light">Sage</li>
+          <li class="list-item font-light">Nutmeg</li>
+          <li class="list-item font-light">Pepper</li>
+          <li class="list-item font-light">Barsley</li>
+          <li class="list-item font-light">Rosemary</li>
+          <li class="list-item font-light">Thyme</li>
+          <li class="list-item font-light">Milk</li>
+          <li class="list-item font-light">Eggs</li>
+          <li class="list-item font-light">Olive oil</li>
+          <li class="list-item font-light">Red wine</li>
+          <li class="list-item font-light">Fennel</li>
+          <li class="list-item font-light">Soy sauce</li>
+          <li class="list-item font-light">Garlic</li>
+          <li class="list-item font-light">Ginger </li>
+          <li class="list-item font-light">Molasses</li>
+          <li class="list-item font-light">Cinnamon</li>
+          <li class="list-item font-light">Hungarian Paprika</li>
+          <li class="list-item font-light">Bullion (chicken/beef/vegetable choice is yours)</li>
+          <li class="list-item font-light">Lemons</li>
+          <li class="list-item font-light">Limes</li>
+          <li class="list-item font-light">Mint</li>
+          <li class="list-item font-light">Balsamic vinegar</li>
+          <li class="list-item font-light">Apple cider vinegar</li>
+          <li class="list-item font-light">Red wine vinegar</li>
+          <li class="list-item font-light">Rice vinegar</li>
+        </ul>
+      </li>
+      <li class="list-item font-light" id="preppingProduce">Prepping produce and cutting</li>
+        <p class="body-copy font-thin">Wash all produce before cutting.</p>
+        <p class="body-copy font-thin">Potatoes—peel and remove the eyes.  Depending on your use and recipe, small potatoes may have part of the skin left on, or even all of it.</p>
+        <p class="body-copy font-thin">Sweet peppers—cut in half and remove stem, inner pith, and seeds, then slice or chop.</p>
+        <p class="body-copy font-thin">Asparagus—using your hands, gently break lower, tough part of the stem off completely.  It will naturally snap where it gets inedible.</p>
+        <p class="body-copy font-thin">Onion—peel, then cut up.  If it is making your eyes tear up, hold it under running water or wash it off a few times as you chop it.  Soak in cold water overnight to take away the strong smell.</p>
+        <p class="body-copy font-thin">Garlic—take cloves off the bulb and peel them by crushing them with the side of a cleaver or the pressing them between a cutting board and the bottom of a sturdy plastic jar.  Then just pick off the husks.</p>
+        <p class="body-copy font-thin">Lettuce and other fresh greens—be careful to double rinse and double check every leaf of fresh greens for damage or insects, because ladybugs are not good in a salad.  Tear up or cut up for your dish.</p>
+        <p class="body-copy font-thin">Green Beans—cut off each end of the bean pod and snap in half by hand.</p>
+        <p class="body-copy font-thin">Carrots—peel, then cut off the top and bottom ½ inch.</p>
+        <p class="body-copy font-thin">Apples—peel, then core and cut into eighths.  There is a special tool to make coring easier.</p>
+        <p class="body-copy font-thin">Oranges—score the outside of the skin with a table knife or other blunt instrument.  Cut it all the way around two or three times.  Then make a small hole at the opposite side from the stem and peel off the skin with your fingers.</p>
+        <p class="body-copy font-thin">Lemons Or Limes—a lemon squeezing press is a popular kitchen tool, as is an old fashioned juicing dish.</p>
+        <p class="body-copy font-thin">Mushrooms—wash well, cut off the bottoms of the stems, slice into thick pieces, and saute until tender on low heat in butter.  Add a little olive oil to raise the temperature at which butter starts to burn.  A bit of onion and garlic add the perfect touch.  Don’t overcook—tender but not rubbery.</p>
+        <p class="body-copy font-thin">Zucchini, Summer Squash—peel, slice into 1/3 inch coins, then treat as for mushrooms.</p>
+        <p class="body-copy font-thin">Tomatoes—slice or chop, according to recipe directions.  To “deslime” tomatoes, cut them in half, then squeeze out the seeds and juice.</p>
+        <p class="body-copy font-thin">Cabbage—remove the outer layer or two of leaves and trim off the stem bottom.</p>
+        <p class="body-copy font-thin">Celery—wash especially well.  To make celery tender, break the stalks, then pull off the “strings” that go down the stems.  The leaves and inside stalks are especially useful in cooking</p>
+        <p class="body-copy font-thin">Peaches or other stone fruit—to skin stone fruit, dip briefly in boiling water, then immerse in cold water.  The skin should slip right off with the slightest effort.</p>
+        <p class="body-copy font-thin">Strawberries—use a spoon, a straw or small corer to hull strawberries.    A straw also works if the berries are not large.</p>
+        <p class="body-copy font-thin">Broccoli—cut off the bottoms of the stems and cut into uniform-sized pieces.  It doesn’t matter how big or small, but if they are the same size, they will cook to the same degree.  That way there are no mushy bits and under-cooked bits in the same dish.</p>
+        <p class="body-copy font-thin">Chard—cut off the ends of the stems and slice into largish pieces.</p>
+        <p class="body-copy font-thin">Green onions—cut off the tops of the greens and the dirty part of the root end.   If they are oldish, you may need to remove the top layer of the skins.</p>
+        <p class="body-copy font-thin">Radishes—cut off the green tops and the roots.</p>
+        <p class="body-copy font-thin">Cucumber—peel, cut off both ends, then slice or chop as needed.  </p>
+    </ol>
+    <ol>
+      <li class="list-item font-light" id="rice">How to make rice</li>
+      <p class="body-copy font-thin">There are many different types of rice, each with unique flavor, fragrance, and consistency qualities and rice-to-water ratios. Different cultures use different rice, such India use basmati rice and jasmine rice. While Japan uses short grain rice which clumps together and is perfect for eating with chopsticks and for pressing together for sushi or onigiri. Some rices are better for certain dishes than others, like basmati and long grain rice are good for pilafs, while fragrant jasmine rice and short grain rice are good for side dishes or for eating with curry.  In regards to that water ratios, that information should be on the package somewhere, so make sure you find it before cooking the rice or storing it in a jar or other container.</p>
+      <p class="body-copy font-thin">To cook in a pan, make sure you stir it every so often so it cooks evenly and doesn’t stick to the bottom of the pan or worst burn. </p>
+      <li class="list-item font-light" id="roux"> How to make a roux</li>
+      <p class="body-copy font-thin">Melt butter in a pan/pot/skillet.</p>
+      <p class="body-copy font-thin">Gradually add flour in increments.</p>
+      <p class="body-copy font-thin">Stir continuously to cook evenly</p>
+      <p class="body-copy font-thin">Cook until the mixture is the color of whiskey</p>
+      <li class="list-item font-light" id="pasta">How to cook Pasta </li>
+      <p class="body-copy font-thin">Boil water in a pot</p>
+      <p class="body-copy font-thin">Put olive oil in the water to prevent the noodles from sticking together.</p>
+      <p class="body-copy font-thin">Get one noodle out of the pot and bite into it once it is cool to check if the noodle is cooked to the desired style.</p>
+      <p class="body-copy font-thin"><b>Al Dente noodles:</b></p>
+      <p class="body-copy font-thin">They are used in making dishes like mac-n-cheese, al dente noodles are done when the out side is soft, but when you bite into or severe the noodle the inside is a slightly different color on the inside. </p>
+      <p class="body-copy font-thin"><b>Fully cooked noodles</b></p>
+      <p class="body-copy font-thin">The noodle is fully cooked when the noodle has even coloring on the inside and outside./p>
+      <p class="body-copy font-thin">Do not throw them against a wall to see if they stick, they will leave oily marks on the wall. It also doesn't tell you if the noodle is cooked all the way through. </p>
+      <li class="list-item font-light" id="biscuits"> How to make biscuits
+      <p class="body-copy font-thin"><B>Ingredients</B></p>
+        <ul>
+          <li class="list-item font-light">2 Cups of all purpose flour</li>
+          <li class="list-item font-light">1/2 teaspoon salt</li>
+          <li class="list-item font-light">1-tablespoon of baking powder
+            </li>
+          <li class="list-item font-light">3/4 cup milk or whole milk
+            </li>
+          <li class="list-item font-light">1/2 cup shortening
+            </li>
+        </ul>
+      <p class="body-copy font-thin"><b>Instructions</b></p>
+        <ol>
+          <li class="list-item font-light">Preheat oven to 450 degrees F (230 degrees C).</li>
+          <li class="list-item font-light">In a large mixing bowl sift together flour, baking powder and salt. Cut in shortening with a fork or pastry blender until mixture resembles coarse crumbs.
+            </li>
+          <li class="list-item font-light">Pour milk into flour mixture while stirring with a fork. Mix in milk until dough is soft, moist and pulls away from the side of the bowl.
+            </li>
+          <li class="list-item font-light">Turn dough out onto a lightly floured surface and toss with flour until no longer sticky. Roll the dough out into a 1/2 inch thick sheet and cut with a floured biscuit or cookie cutter. Press together unused dough and repeat rolling and cutting procedure.
+            </li>
+          <li class="list-item font-light">Place biscuits on ungreased baking sheets and bake in preheated oven until golden brown, about 10 minutes.
+            </li>
+          </ol>
+          </li>
+      <li class="list-item font-light" id="yeastRolls">How to make yeast rolls
+      <p class="body-copy font-thin"><b>Ingredients</b></p>
+        <ul>
+          <li class="list-item font-light">2 tablespoons shortening</li>
+          <li class="list-item font-light">3 tablespoons white sugar</li>
+          <li class="list-item font-light">1 cup hot water
+            </li>
+          <li class="list-item font-light">1 (.25 ounce) package active dry yeast
+            </li>
+          <li class="list-item font-light">1 egg, beaten
+            </li>
+          <li class="list-item font-light">1 teaspoon salt</li>
+          <li class="list-item font-light">2 1/4 cups all-purpose flour
+            </li>
+        </ul>
+      <p class="body-copy font-thin"><b>Instructions</b></p>
+        <ol>
+            <li class="list-item font-light">In a large bowl, mix the shortening, sugar, and hot water. Allow to cool until lukewarm, and mix in the yeast until dissolved. Mix in the egg, salt, and flour. Allow the dough to rise until doubled in size</li>
+            <li class="list-item font-light">Grease 8 muffin cups. Divide the dough into the prepared muffin cups, and allow to rise again until doubled in size.
+              </li>
+            <li class="list-item font-light">Preheat oven to 425 degrees F (220 degrees C).
+              </li>
+            <li class="list-item font-light">Bake for 10 minutes in the preheated oven, or until a knife inserted in the center of a muffin comes out clean.
+              </li>
+        </ol>
+      </li>
+    </ol>
+  </div> <!-- end flexbox-container -->
+  <!-- BEGINNING OF FOOTER -->
+  <footer class="page-footer font-small  pt-4 footer">
+    <div class="container-fluid text-center text-md-left">
+      <div class="row">
+        <div class="col-md-3 mb-md-0 mb-3 social-media ">
+          <ul class="list-unstyled d-flex align-items-center">
+            <li>
+              <a href="https://twitter.com/?lang=en" class="twitter-account icon-padding">
+                <i class="fab fa-twitter fa-2x"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/" class="facebook-account icon-padding">
+                <i class="fab fa-facebook fa-2x"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/" class="instagram-account icon-padding">
+                <i class="fab fa-instagram fa-2x"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6 mt-md-0 mt-3 company-info">
+          <h5 class="text-uppercase company-title">Bitwise Industries</h5>
+          <p class="company-address">700 Van Ness Ave Fresno, CA 93721 <br> Phone (559) 500-3305</p>
+        </div>
+        <div class="col-md-3 mb-md-0 mb-3">
+          <form class="form-inline">
+            <input class="form-control form-control-sm mr-2 w-50" type="text" placeholder="Search" aria-label="Search">
+            <i class="fas fa-search fa-2x search-btn" aria-hidden="true"></i>
+          </form>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- END OF FOOTER -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+  <script src="js/navbar.js"></script>
+</body>
+</html>
