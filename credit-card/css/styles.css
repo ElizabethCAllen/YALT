@@ -1,0 +1,463 @@
+/* for smartphones with screen size smaller than 600px */
+body{
+    font-family: proxima-nova-extra-condensed, sans-serif;
+    color: #707070;
+  }
+  
+  .flexbox-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  h1{
+    font-size: 38pt;
+    text-align: center;
+    line-height: 36pt;
+    color: #024873;
+    margin-top: 1em;
+  }
+  
+  .body-copy{
+    font-size: 15pt;
+    width: 75%;
+    padding: 20px;
+    margin: 0;
+  }
+  
+  .icon-info-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 85vw;
+  }
+  
+  .banking-icon{
+    order: 1;
+  }
+  
+  .banking-caption{
+    order: 2;
+  }
+  
+  .interview-icon{
+    order: 1;
+  }
+  
+  .interview-caption{
+    order: 2;
+  }
+  
+  .car-icon{
+    order: 3;
+  }
+  
+  .car-caption{
+    order: 4;
+  }
+  
+  .home-icon{
+    order: 3;
+  }
+  
+  .home-caption{
+    order: 4;
+  }
+  
+  .img1, .img2, .img3, .img4{
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .img1{
+    color: #13803E;
+  }
+  
+  .img2{
+    color: #5CC3FF;
+  }
+  
+  .img3{
+    color: #647985;
+  }
+  
+  .img4{
+    color: #82478A;
+  }
+  
+  .img-caption{
+    font-size: 9pt;
+    width: 38%;
+  }
+  
+  .reference-img img{
+    width: 60vw;
+    margin: 20px 10px 10px 10px;
+  }
+  
+  .caption{
+    font-size: 10pt;
+    width: 75%;
+  }
+  
+  ol{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-left: 10px;
+  }
+  
+  .list-item{
+    width: 60%;
+    padding: 5px 5px 10px 5px;
+  }
+  
+  .font-bold{
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .font-light{
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .font-italic{
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .font-regular{
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .font-thin{
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .footer{
+    background-color: #024873;
+    height: auto;
+  }
+  
+  .company-info{
+    color: white;  
+  }
+  
+  .company-title{
+    padding-right: 10px;  
+  }
+  
+  .social-media{
+    color: #BF9BBF;
+  }
+  
+  .icon-padding{
+    padding:10px;
+  }
+  
+  .twitter-account{
+    color: #BF9BBF;
+  }
+  
+  .instagram-account{
+    color: #BF9BBF;
+  }
+  
+  .facebook-account{
+    color: #BF9BBF;
+  }
+  
+  .search-text{
+    background-color: white; 
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    text-align: center;   
+  }
+  
+  .search-btn{
+    color:#BF9BBF;  
+    padding-left: 0%;
+  }
+  
+  .navbar {
+    background-color: #024873; 
+    color:white;
+  }
+  
+  .navbar, .navbar-brand, .nav-link {
+    background-color: #024873;
+    color:white;
+  }
+  
+  .navbar a:hover{
+    color:#BF9BBF;
+  }
+  
+  .dropdown-menu a:hover{
+    background-color:#8AB0BF;
+    color:white;
+  }
+  
+  .navbar-nav{
+    width: 100%;
+  }
+  
+  .profile-icon{
+    color:#BF9BBF;
+  }
+  
+  .profile-icon:hover{
+    color:white;
+  }
+  
+  .collapse:not(.show) {
+    display:none;
+  }
+  
+  .navbar-toggler {
+    border-color:#fff;
+    background-color: #BF9BBF; 
+    height:30px;
+  }
+  
+  .fa-bars{
+    color:white;
+  }
+  
+  .dropdown-menu.show{
+    width:190px; 
+  }  
+  
+  .navbar-brand{
+    margin-left:5px;
+  } 
+  
+  .main-logo{
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+  }
+  /* ************* END OF MOBILE BASIS ************* */
+  
+  
+  /* ************* MIN-WIDTH 300PX - footer content ************* */
+  @media (min-width: 300px) { 
+    .company-info{
+      display: flex;
+      justify-content: center;
+    }
+    .social-media{
+      display: flex;
+      justify-content: center;
+    }
+    .form-inline{
+      display: flex;
+      justify-items: center;
+      padding-left: 5.5em;
+    }
+  }
+  
+  
+  /* ************* MIN-WIDTH 576PX - footer content ************* */
+  @media (min-width: 576px) {
+    .company-info{
+      padding-left: 5px;
+      font-size: 9pt;
+    }
+  }
+  
+  
+  /* ************* MIN-WIDTH 600PX ************* */
+  /* for small devices beginning at 600px */
+  @media only screen and (min-width : 600px) {
+    h1{
+      text-align: left;
+      font-size: 48pt;
+    }
+  
+    .body-copy{
+      font-size: 18pt;
+      width: 80%;
+      padding: 20px;
+      margin: 0;
+    }
+  
+    .img1, .img2, .img3, .img4{
+      height: 100px;
+      width: 100px;
+      margin: 40px 40px 10px 40px;
+    }
+  
+    .img-caption{
+      font-size: 12pt;
+      width: 40%;
+      margin-bottom: 30px;
+    }
+  
+    .icon-info-container{
+      width: 70vw;
+    }
+  
+    .banking-icon{
+      order: 1;
+    }
+  
+    .banking-caption{
+      order: 2;
+    }
+  
+    .interview-icon{
+      order: 1;
+    }
+  
+    .interview-caption{
+      order: 2;
+    }
+  
+    .car-icon{
+      order: 3;
+    }
+  
+    .car-caption{
+      order: 4;
+    }
+  
+    .home-icon{
+      order: 3;
+    }
+    
+    .home-caption{
+      order: 4;
+    }
+  }
+  
+  
+  /* ************* MIN-WIDTH 768PX ************* */
+  @media (min-width: 768px) {
+    .company-info{
+      font-size: 9pt;
+    }
+    .justify-content-center{
+      display: none;
+    }
+    .form-inline{
+      padding-top: 9px;
+      padding-left: 0em;
+    }
+  }
+  
+  
+  
+  
+  /* ************* MIN-WIDTH 992PX ************* */
+  @media (min-width: 992px) {
+    .company-info{
+      font-size: 9pt;
+    }
+  
+    .justify-content-center{
+      display: none;
+    }
+  
+    .body-copy{
+      font-size: 12pt;
+      width: 60%;
+      padding: 20px;
+      margin: 0;
+    }
+  
+    .icon-info-container{
+      width: 50vw;
+      justify-content: space-around;
+    }
+  
+    .banking-icon{
+      order: 1;
+    }
+  
+    .banking-caption{
+      order: 5;
+    }
+  
+    .interview-icon{
+      order: 2;
+    }
+  
+    .interview-caption{
+      order: 6;
+    }
+  
+    .car-icon{
+      order: 3;
+    }
+  
+    .car-caption{
+      order: 7;
+    }
+  
+    .home-icon{
+      order: 4;
+    }
+  
+    .home-caption{
+      order: 8;
+    }
+  
+    .img-caption{
+      font-size: 10pt;
+      width: 18%;
+      margin-bottom: 30px;
+    }
+  
+    .reference-img img{
+      width: 40vw;
+      margin: 20px 10px 10px 10px;
+    }
+  
+    ol{
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    } 
+  
+    .list-item{
+      width: 65%;
+      padding: 5px 5px 10px 5px;
+    }
+  }
+  
+  
+  /* ************* MIN-WIDTH 1000PX ************* */
+  @media (min-width:1000px) {
+    .company-title{
+      padding-right: 20px;
+    }
+    .form-inline{
+      padding-top: 0%;
+    }
+  }
+  
+  
+  /* ************* MIN-WIDTH 1200PX ************* */
+  @media (min-width: 1200px) { 
+    .company-info{
+      padding-left: 5px;
+      font-size: 12pt;
+    }
+    .justify-content-center{
+      display: none;
+    }
+    .font-thin{
+      font-weight: 200;
+      font-style: normal;
+    }
+  }

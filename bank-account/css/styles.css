@@ -1,10 +1,4 @@
 /* for smartphones with screen size smaller than 600px */
-a { position: relative; z-index: 1; }
-
-a span { display: inline-block; }
-
-a object { position: relative; z-index: -1; }
-
 body{
   font-family: proxima-nova-extra-condensed, sans-serif;
   color: #707070;
@@ -112,13 +106,6 @@ h1{
 }
 
 ol{
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  padding-left: 10px;
-}
-
-ul{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -259,10 +246,6 @@ ul{
   position: relative;
   z-index: 1;
 }
-
-.ending{
-  margin-bottom: 3em;
-}
 /* ************* END OF MOBILE BASIS ************* */
 
 
@@ -297,7 +280,7 @@ ul{
 /* for small devices beginning at 600px */
 @media only screen and (min-width : 600px) {
   h1{
-    /* text-align: left; */
+    text-align: left;
     font-size: 48pt;
   }
 
@@ -370,10 +353,11 @@ ul{
     padding-top: 9px;
     padding-left: 0em;
   }
-  .ending{
-    margin-bottom: 3em;
-  }
 }
+
+
+
+
 /* ************* MIN-WIDTH 992PX ************* */
 @media (min-width: 992px) {
   .company-info{
@@ -384,23 +368,11 @@ ul{
     display: none;
   }
 
-  h1{
-    width: 100%;
-  }
-
-  .width-100{
-    width: 100%;
-  }
-
   .body-copy{
     font-size: 12pt;
     width: 60%;
     padding: 20px;
     margin: 0;
-  }
-
-  .heading-para{
-    padding-bottom: 6px;
   }
 
   .icon-info-container{
@@ -451,26 +423,16 @@ ul{
     margin: 20px 10px 10px 10px;
   }
 
-  /* ol{
+  ol{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-left: 100px; 
-  }  */
+  } 
 
   .list-item{
     width: 65%;
     padding: 5px 5px 10px 5px;
   }
-
-  .ending{
-    margin-bottom: 5em;
-  }
-  .width-100{
-    width: 100%;
-  }
-
- 
 }
 
 
@@ -497,9 +459,5 @@ ul{
   .font-thin{
     font-weight: 200;
     font-style: normal;
-  }
-  .firstpic {
-    height:275px;
-    width:275px;
   }
 }
