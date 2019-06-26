@@ -498,4 +498,8 @@ ul{
     font-weight: 200;
     font-style: normal;
   }
+  .firstpic {
+    height:275px;
+    width:275px;
+  }
 }
