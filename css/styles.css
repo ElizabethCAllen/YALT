@@ -1,4 +1,10 @@
 /* for smartphones with screen size smaller than 600px */
+a { position: relative; z-index: 1; }
+
+a span { display: inline-block; }
+
+a object { position: relative; z-index: -1; }
+
 body{
   font-family: proxima-nova-extra-condensed, sans-serif;
   color: #707070;
@@ -246,6 +252,7 @@ ol{
   position: relative;
   z-index: 1;
 }
+
 /* ************* END OF MOBILE BASIS ************* */
 
 
@@ -353,19 +360,7 @@ ol{
     padding-top: 9px;
     padding-left: 0em;
   }
-  .width-100{
-    width: 100%;
-  }
-  .fill{
-    width: 100%;
-    height: 5px;
-    border: 1px solid red;
-  }
 }
-
-
-
-
 /* ************* MIN-WIDTH 992PX ************* */
 @media (min-width: 992px) {
   .company-info{
@@ -446,11 +441,7 @@ ol{
     width: 100%;
   }
 
-  .fill{
-    width: 100%;
-    height: 5px;
-    border: 1px solid red;
-  }
+ 
 }
 
 

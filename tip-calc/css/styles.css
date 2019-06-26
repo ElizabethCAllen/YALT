@@ -353,10 +353,9 @@ body{
       padding-top: 9px;
       padding-left: 0em;
     }
+  
   }
-  
-  
-  
+    
   
   /* ************* MIN-WIDTH 992PX ************* */
   @media (min-width: 992px) {
@@ -433,6 +432,7 @@ body{
       width: 65%;
       padding: 5px 5px 10px 5px;
     }
+    
   }
   
   
@@ -460,4 +460,9 @@ body{
       font-weight: 200;
       font-style: normal;
     }
+    
   }
+
+ .paragraph{
+   text-align: center;
+ }
