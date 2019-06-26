@@ -1,4 +1,10 @@
 /* for smartphones with screen size smaller than 600px */
+a { position: relative; z-index: 1; }
+
+a span { display: inline-block; }
+
+a object { position: relative; z-index: -1; }
+
 body{
   font-family: proxima-nova-extra-condensed, sans-serif;
   color: #707070;
@@ -246,6 +252,7 @@ ol{
   position: relative;
   z-index: 1;
 }
+
 /* ************* END OF MOBILE BASIS ************* */
 
 
