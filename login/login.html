@@ -4,6 +4,9 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-signin-scope" content="profile email">
+  <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
     integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 
@@ -19,19 +22,18 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="../css/styles.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/wtw0aew.css">
-    <title>How to Check Tire Tread</title>
+
+    <title>Young Adult Life Tips</title>
 </head>
 <body>
   <!-- BEGINNING OF NAVBAR -->
   <nav class="navbar navbar-expand-lg">
-    <a class="main-logo" href="index.html">
-        <a href="http://www.html5rocks.com" target="_blank"> 
-          <span>
-      <object class="main-logo-svg" type="image/svg+xml" data="yalt-logo-main.svg"></object>
-    </span></a> </a>
+    <a class="main-logo" href="../index.html">
+        <object class="main-logo-svg" type="image/svg+xml" data="../yalt-logo-main.svg"></object>
+      </a>
 
 
-    <a class="navbar-brand" href="index.html">YALT</a>
+    <a class="navbar-brand" href="../index.html">YALT</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
       aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"><i class="bars_icon fas fa-bars"></i></span>
@@ -43,10 +45,10 @@
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">Banking</a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="Finances/check.html">Write a Check</a>
-            <a class="dropdown-item" href="bank-account/Bank_account.html">Open a Bank Account</a>
-            <a class="dropdown-item" href="credit-card/credit-card.html">Apply For a Credit Card</a>
-            <a class="dropdown-item" href="tip-calc/tipping.html">Recommendations for Tipping</a>
+            <a class="dropdown-item" href="banking/check.html">Write a Check</a>
+            <a class="dropdown-item" href="banking/bank-account.html">Open a Bank Account</a>
+            <a class="dropdown-item" href="banking/credit-card.html">Apply For a Credit Card</a>
+            <a class="dropdown-item" href="banking/tipping.html">Recommendations for Tipping</a>
           </div>
         </li> <!-- end banking -->
 
@@ -54,10 +56,10 @@
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">Job Interviews</a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="dress/howtodress.html">How to Dress</a>
-            <a class="dropdown-item" href="job-interviews/questions.html">Interview Questions</a>
-            <a class="dropdown-item" href="job-interviews/todo.html">What Not To Do</a>
-            <a class="dropdown-item" href="job-interviews/resume.html">A Professional Resume</a>
+            <a class="dropdown-item" href="./job-interviews/dress.html">How to Dress</a>
+            <a class="dropdown-item" href="./job-interviews/questions.html">Interview Questions</a>
+            <a class="dropdown-item" href="./job-interviews/todo.html">What Not To Do</a>
+            <a class="dropdown-item" href="./job-interviews/resume.html">A Professional Resume</a>
           </div>
         </li> <!-- end job interviews -->
 
@@ -65,10 +67,10 @@
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">Automotive</a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="automotive/flat-tire.html">Changing a Flat Tire</a>
-            <a class="dropdown-item" href="automotive/oil-change.html">Getting an Oil Change</a>
-            <a class="dropdown-item" href="automotive/tire-tread.html">How to Check Tire Tread</a>
-            <a class="dropdown-item" href="automotive/jump-start.html">Jump Starting your Car</a>
+            <a class="dropdown-item" href="./automotive/flat-tire.html">Changing a Flat Tire</a>
+            <a class="dropdown-item" href="./automotive/oil-change.html">Getting an Oil Change</a>
+            <a class="dropdown-item" href="./automotive/tire-tread.html">How to Check Tire Tread</a>
+            <a class="dropdown-item" href="./automotive/jump-start.html">Jump Starting your Car</a>
           </div>
         </li> <!-- end automotive -->
 
@@ -76,74 +78,68 @@
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">Life Skills</a>
           <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="life-skills/cooking.html">Cooking</a>
-            <a class="dropdown-item" href="life-skills/cleaning.html">Cleaning</a>
-            <a class="dropdown-item" href="life-skills/laundry.html">Laundry</a>
-            <a class="dropdown-item" href="life-skills/lightbulb.html">Changing a Light Bulb</a>
+            <a class="dropdown-item" href="./life-skills/cooking.html">Cooking</a>
+            <a class="dropdown-item" href="./life-skills/cleaning.html">Cleaning</a>
+            <a class="dropdown-item" href="./life-skills/laundry.html">Laundry</a>
+            <a class="dropdown-item" href="./life-skills/lightbulb.html">Changing a Light Bulb</a>
           </div>
         </li> <!-- end life skills -->
       </ul> <!-- end navbar-nav -->
     </div> <!-- end of collapse navbar -->
-
     <div> <!-- beginning profile-icon -->
-      <a href="login/login.html"><i class="profile-icon fas fa-user"></i></a>
+        <a href="#"><i class="profile-icon fas fa-user"></i></a>
     </div> <!-- end profile-icon -->
   </nav>
   <!-- END OF NAVBAR -->
   
+  <div class="flexbox-container"> <!-- beginning flexbox-container -->
+
+        <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
   
-  <div class="flexbox-container">
-     <div class="container">
-       <div class=" d-flex justify-content-center">
-          <h1>YALT - Young Adult Life Tips</h1>
-       </div>
-     </div>
-      
-      <p class="body-copy font-thin"> Have you ever used the circumference of a circle to multiply the diameter by pi?....No! Have you ever used the origin of the square root symbol √ ? .... Probably not! Have you ever needed to learn how to change a flat tire? .... Heck Yes!</p>
-    
-      
-          <p class="body-copy font-thin">
-            
-            
-              Young Adult Life Tips will teach users some life skills that are not typically taught in an education setting. This application will allow users to browse different tips and advice to help the user apply it to their certain needs.
+        <div class="container-fluid">
+            <h3 class="text-center pt-5"><b>Create New Account</b></h3>
+            <div class="col-md-6 offset-md-3">
+            <form>
+              <div class="form-group ml-5 mr-5">
+                <label for="name">First Name:</label>
+                <input type="text" name="firstname" required class="form-control" id="firstname" placeholder="Enter first name">
+              </div>
+              <div class="form-group ml-5 mr-5">
+                  <label for="name">Last Name:</label>
+                  <input type="text" name="lastname" required class="form-control" id="lastname" placeholder="Enter last name">
+                </div>
+              <div class="form-group ml-5 mr-5">
+                <label for="email">Email:</label>
+                <input type="email" name="email" required class="form-control" id="email" placeholder="Enter email address">
+              </div>
+              <div class="form-group ml-5 mr-5">
+                <label for="username">Username:</label>
+                <input type="text" name="username" required class="form-control" id="username" placeholder="Enter username">
+              </div>
+              <div class="form-group  ml-5 mr-5">
+                <label for="password">Password:</label>
+                <input type="password" name="password" required  class="form-control" id="password" placeholder="Enter password">
+              </div>
+              <div class="form-group ml-5 mr-5">
+                <label for="password">Confirm Password:</label>
+                <input type="password" name="password" required class="form-control" id="confirm_password" placeholder="Re-enter password">
+              </div>
+            </form>
+          </div>
+            <div class="form-row text-center">
+              <div class="col-md-12">
+                <a href="#">
+                  <button class="btn text-center mt-5" type="submit"><b>SUBMIT</b></button></a>
+              </div>
+            </div>
+          </div>
         
-            </p>
-      
+            
+ 
+  </div> <!-- end flexbox-containe r -->
 
-
-
-
-    <div class="icon-info-container-fluid">
-       
-    <div class=" d-flex justify-content-center "> 
-      <div class="col-md-3">
-       <div class="input-group"> 
-          <div class="img1 banking-icon" ><i class="fas fa-money-check fa-4x"></i></div>
-      </div>
-      </div>
-      <div class="col-md-3">
-       <div class="img2 interview-icon"><i class="fas fa-clipboard-list fa-5x"></i> </div>
-      </div>
-
-
-      <div class="img3 car-icon "><i class="fas fa-car fa-5x">
-      </i>
-      </div>
-
-
-<div class="img4 home-icon"><i class="fas fa-home fa-5x"></i>
-</div>
-
-
-
-</div>
-</div>
-<p class="body-copy font-light">Banking Category includes: how to write a check, how to open up a bank account, how to apply for a credit card, etc. Automotive Category includes: changing a flat tire, where to go get an oil change, jump start your car etc. Job Interview Category includes: how to dress, questions to ask them, resume, etc. Life Skills Category includes: cooking, cleaning, and laundry</p>
-
-</div> 
-</div>
   <!-- BEGINNING OF FOOTER -->
-  <footer class="page-footer font-small  pt-4 footer ">
+  <footer class="page-footer font-small  pt-4 footer">
     <div class="container-fluid text-center text-md-left">
       <div class="row">
         <div class="col-md-3 mb-md-0 mb-3 social-media ">
@@ -181,6 +177,7 @@
   <!-- END OF FOOTER -->
 
 
+  
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
@@ -190,8 +187,10 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
-  <script src="js/scripts.js"></script>
-  <script src="js/navbar.js"></script>
-
+  
+  <script src="../js/navbar.js"></script>
+  <script src="../js/auth.js"></script>
+  <script src="../js/app.js"></script>
+  <script src="../js/new_acct.js"></script>
 </body>
 </html>
