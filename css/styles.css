@@ -361,10 +361,6 @@ ol{
     padding-left: 0em;
   }
 }
-
-
-
-
 /* ************* MIN-WIDTH 992PX ************* */
 @media (min-width: 992px) {
   .company-info{
@@ -440,6 +436,12 @@ ol{
     width: 65%;
     padding: 5px 5px 10px 5px;
   }
+
+  .width-100{
+    width: 100%;
+  }
+
+ 
 }
 
 
